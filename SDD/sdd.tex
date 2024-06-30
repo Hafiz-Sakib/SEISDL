@@ -7,6 +7,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{enumitem}
+\usepackage[a4paper, margin=1in]{geometry}
 \usetikzlibrary{shapes, arrows.meta, positioning, backgrounds}
 \usetikzlibrary{arrows.meta}
 \usetikzlibrary{shapes.geometric, positioning, arrows.meta}
@@ -382,7 +383,58 @@ The system architecture of the Odyssey Travel website is designed to provide a r
     \end{table}
 
 \chapter{UML}
+\section{Activity Diagram}
 
+\section*{Activity Diagram for Travel Agency Software}
+
+The activity diagram illustrates user activities and workflows in the Travel Agency Software, highlighting how users interact with various features.
+
+\begin{itemize}
+    \item \textbf{User Initiation:}
+    \begin{itemize}
+        \item Users start the process as visitors, registered users, or admins.
+    \end{itemize}
+    \item \textbf{Browsing Packages:}
+    \begin{itemize}
+        \item Users browse travel packages, viewing details like destination, itinerary, and price.
+    \end{itemize}
+    \item \textbf{Registration/Login:}
+    \begin{itemize}
+        \item Users register or log in to access booking and management features.
+    \end{itemize}
+    \item \textbf{Package Selection and Booking:}
+    \begin{itemize}
+        \item Registered users select and book travel packages, including dates and options.
+    \end{itemize}
+    \item \textbf{Applying Coupons:}
+    \begin{itemize}
+        \item Users apply discount coupons to adjust the package price.
+    \end{itemize}
+    \item \textbf{Booking Flights and Transportation:}
+    \begin{itemize}
+        \item Users book flights and transportation linked to their package.
+    \end{itemize}
+    \item \textbf{Booking Hotels:}
+    \begin{itemize}
+        \item Users book hotels for their stay based on package details.
+    \end{itemize}
+    \item \textbf{Admin Management:}
+    \begin{itemize}
+        \item Admins manage plans, hotels, and tour guides.
+    \end{itemize}
+    \item \textbf{End Process:}
+    \begin{itemize}
+        \item Users complete booking or other activities, concluding the process.
+    \end{itemize}
+\end{itemize}
+{\includegraphics[width=450px, height=500px]{actd.jpg}}
+
+\begin{center}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Figure - 7.9 : Activity Diagram For Travel Agency Software}
+    }
+\end{center}
 \section{Use Cases}
 Use Cases help us to identify the actors involved in an interaction and names the type of interaction.
 This subsection outlines the Use Cases for our system’s users. Use cases are determined following
@@ -996,7 +1048,7 @@ respectively.
 
 
 
-\section*{Level-0 Data Flow Diagram}
+\section {Level-0 Data Flow Diagram}
 
 
 
@@ -1085,6 +1137,11 @@ respectively.
         \textbf{Figure-9.2: Level 1 DFD of Travel Agency Software}
     }
 \end{center}
+
+
+\section{ER Diagram}
+
+
 
 \chapter{Conclussion}
 

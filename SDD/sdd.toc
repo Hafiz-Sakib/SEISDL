@@ -1,24 +1,27 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Flow Chart}{3}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}User Interaction Flow :}{5}{subsection.1.1.1}%
-\contentsline {chapter}{\numberline {2}System Architecture}{7}{chapter.2}%
-\contentsline {section}{\numberline {2.1}System Architecture Diagram}{7}{section.2.1}%
-\contentsline {section}{\numberline {2.2}System Interaction}{8}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Scalability and Reliability}{10}{section.2.3}%
-\contentsline {chapter}{\numberline {3}UML}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Use Cases}{11}{section.3.1}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Users view available travel packages on the Odyssey Travels platform.}}{11}{paragraph*.4}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User selects and purchases a travel plan on the Odyssey Travels platform.\newline }}{12}{paragraph*.7}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User applies a coupon code during the booking process to avail discounts or special offers.}}{14}{paragraph*.10}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User selects and books flights and transportation services through the Odyssey Travels application.}}{15}{paragraph*.14}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User selects and books accommodations through the Odyssey Travels application.}}{17}{paragraph*.18}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Admin reviews and manages travel plans submitted by users, either accepting or deleting them based on predefined criteria.}}{18}{paragraph*.22}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Admin accesses and modifies hotel bookings made by users through the Odyssey Travels platform.}}{20}{paragraph*.29}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Admin manages the information of registered tour guides within the Odyssey Travels platform.}}{21}{paragraph*.36}%
-\contentsline {section}{\numberline {3.2}Use Case Diagram}{22}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Sequence Diagram :}{23}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Data Flow Diagram}{25}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Level-1 Data Flow Diagram}{26}{section.3.5}%
-\contentsline {chapter}{\numberline {4}Conclussion}{27}{chapter.4}%
+\contentsline {subsection}{\numberline {1.1.1}User Interaction Flow :}{4}{subsection.1.1.1}%
+\contentsline {chapter}{\numberline {2}System Architecture}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}System Architecture Diagram}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}System Interaction}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Scalability and Reliability}{8}{section.2.3}%
+\contentsline {chapter}{\numberline {3}UML}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Activity Diagram}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Use Cases}{10}{section.3.2}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Users view available travel packages on the Odyssey Travels platform.}}{11}{paragraph*.5}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User selects and purchases a travel plan on the Odyssey Travels platform.\newline }}{12}{paragraph*.8}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User applies a coupon code during the booking process to avail discounts or special offers.}}{13}{paragraph*.11}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User selects and books flights and transportation services through the Odyssey Travels application.}}{14}{paragraph*.15}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User selects and books accommodations through the Odyssey Travels application.}}{16}{paragraph*.19}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Admin reviews and manages travel plans submitted by users, either accepting or deleting them based on predefined criteria.}}{17}{paragraph*.23}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Admin accesses and modifies hotel bookings made by users through the Odyssey Travels platform.}}{18}{paragraph*.30}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Admin manages the information of registered tour guides within the Odyssey Travels platform.}}{19}{paragraph*.37}%
+\contentsline {section}{\numberline {3.3}Use Case Diagram}{20}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Sequence Diagram :}{20}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Data Flow Diagram}{21}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Level-0 Data Flow Diagram}{22}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Level-1 Data Flow Diagram}{22}{section.3.7}%
+\contentsline {section}{\numberline {3.8}ER Diagram}{22}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Conclussion}{23}{chapter.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

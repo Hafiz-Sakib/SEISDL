@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  30 JUN 2024 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  30 JUN 2024 18:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -509,7 +509,24 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@inbox=\box69
 \enit@count@id=\count313
 \enitdp@description=\count314
-) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
+) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count315
+\Gm@cntv=\count316
+\c@Gm@tempcnt=\count317
+\Gm@bindingoffset=\dimen262
+\Gm@wd@mp=\dimen263
+\Gm@odd@mp=\dimen264
+\Gm@even@mp=\dimen265
+\Gm@layoutwidth=\dimen266
+\Gm@layoutheight=\dimen267
+\Gm@layouthoffset=\dimen268
+\Gm@layoutvoffset=\dimen269
+\Gm@dimlist=\toks35
+ (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -553,10 +570,10 @@ File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodepartfivebox=\box89
 ))) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen262
-\pgfarrowlength=\dimen263
-\pgfarrowwidth=\dimen264
-\pgfarrowlinewidth=\dimen265
+\pgfarrowinset=\dimen270
+\pgfarrowlength=\dimen271
+\pgfarrowwidth=\dimen272
+\pgfarrowlinewidth=\dimen273
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybackgrounds.code.tex
@@ -566,68 +583,68 @@ File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 56.
+(hyperref)                setting the option has no effect on input line 57.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 56.
+Package hyperref Info: Option `colorlinks' set `true' on input line 57.
 (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count315
+\l__color_backend_stack_int=\count318
 \l__pdf_internal_box=\box92
 ) (sdd.aux)
 \openout1 = `sdd.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
-LaTeX Font Info:    ... okay on input line 69.
-Package scrbase Info: activating english \abstractname on input line 69.
-Package scrbase Info: activating english \partname on input line 69.
-Package scrbase Info: activating english \chaptername on input line 69.
-Package scrbase Info: activating english \appendixname on input line 69.
-Package scrbase Info: activating english \figurename on input line 69.
-Package scrbase Info: activating english \tablename on input line 69.
-Package scrbase Info: activating english \contentsname on input line 69.
-Package scrbase Info: activating english \listfigurename on input line 69.
-Package scrbase Info: activating english \listtablename on input line 69.
-Package scrbase Info: activating english \bibname on input line 69.
-Package scrbase Info: activating english \indexname on input line 69.
-\c@lstlisting=\count316
-Package tocbasic Info: setting babel extension for `lol' on input line 69.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
+LaTeX Font Info:    ... okay on input line 70.
+Package scrbase Info: activating english \abstractname on input line 70.
+Package scrbase Info: activating english \partname on input line 70.
+Package scrbase Info: activating english \chaptername on input line 70.
+Package scrbase Info: activating english \appendixname on input line 70.
+Package scrbase Info: activating english \figurename on input line 70.
+Package scrbase Info: activating english \tablename on input line 70.
+Package scrbase Info: activating english \contentsname on input line 70.
+Package scrbase Info: activating english \listfigurename on input line 70.
+Package scrbase Info: activating english \listtablename on input line 70.
+Package scrbase Info: activating english \bibname on input line 70.
+Package scrbase Info: activating english \indexname on input line 70.
+\c@lstlisting=\count319
+Package tocbasic Info: setting babel extension for `lol' on input line 70.
 \scr@dte@lstlisting@maxnumwidth=\skip70
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count317
-\scratchdimen=\dimen266
+\scratchcounter=\count320
+\scratchdimen=\dimen274
 \scratchbox=\box93
-\nofMPsegments=\count318
-\nofMParguments=\count319
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count320
-\MPscratchDim=\dimen267
-\MPnumerator=\count321
-\makeMPintoPDFobject=\count322
-\everyMPtoPDFconversion=\toks36
+\nofMPsegments=\count321
+\nofMParguments=\count322
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count323
+\MPscratchDim=\dimen275
+\MPnumerator=\count324
+\makeMPintoPDFobject=\count325
+\everyMPtoPDFconversion=\toks37
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 69.
+Package hyperref Info: Link coloring ON on input line 70.
  (sdd.out) (sdd.out)
 \@outlinefile=\write4
 \openout4 = `sdd.out'.
@@ -639,19 +656,53 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 69.
+(scrreprt)           before \begin{document} on input line 70.
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count323
+\BKM@id=\count326
 ))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.40001pt
+* \headheight=17.0pt
+* \headsep=20.40001pt
+* \topskip=11.0pt
+* \footskip=47.6pt
+* \marginparwidth=59.7508pt
+* \marginparsep=12.8401pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 76.
+(Font)              <10.95> on input line 77.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 76.
+(Font)              <8> on input line 77.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 76.
+(Font)              <6> on input line 77.
 
 
 [1
@@ -675,217 +726,153 @@ chapter 1.
 [4]
 
 [5]
-
-[6]
 chapter 2.
 
-Overfull \hbox (5.283pt too wide) in paragraph at lines 238--252
- [] 
- []
 
-
-Overfull \hbox (5.283pt too wide) in paragraph at lines 259--272
- [][] 
- []
-
-
-Overfull \hbox (5.283pt too wide) in paragraph at lines 279--293
- [][] 
- []
-
-
-Overfull \hbox (5.283pt too wide) in paragraph at lines 300--313
- [][] 
- []
-
-
-Overfull \hbox (5.283pt too wide) in paragraph at lines 320--333
- [][] 
- []
-
-
-Overfull \hbox (5.283pt too wide) in paragraph at lines 340--350
- [][] 
- []
-
-
-
-[7
+[6
 
 ]
-Overfull \hbox (5.283pt too wide) in paragraph at lines 355--366
- [][] 
- []
 
-
-Overfull \hbox (5.283pt too wide) in paragraph at lines 375--382
- [] 
- []
-
-
+[7]
 
 [8]
-
-[9]
-
-[10]
 chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--395
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--395
-
- []
+<actd.jpg, id=89, 391.2216pt x 561.7788pt>
+File: actd.jpg Graphic file (type jpg)
+<use actd.jpg>
+Package pdftex.def Info: actd.jpg  used on input line 430.
+(pdftex.def)             Requested size: 451.68623pt x 501.89311pt.
 
 
-
-[11
+[9
 
 ]
-Overfull \hbox (1.67754pt too wide) in paragraph at lines 436--437
-[]\OT1/cmr/m/n/10.95 System dis-plays pack-age de-tails in-clud-ing des-ti-na-tion, du-ra-tion, pric-ing, and ameni-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 449--452
+Underfull \hbox (badness 10000) in paragraph at lines 444--447
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--452
+Underfull \hbox (badness 10000) in paragraph at lines 444--447
 
  []
 
 
+
+[10 <./actd.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 501--504
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--504
+
+ []
+
+
+
+[11]
 
 [12]
-Overfull \hbox (4.20213pt too wide) in paragraph at lines 493--494
-[]\OT1/cmr/m/n/10.95 System dis-plays de-tailed in-for-ma-tion about the se-lected pack-age, in-clud-ing itinerary,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 521--539
+Underfull \hbox (badness 10000) in paragraph at lines 573--591
 
  []
 
 
 
 [13]
+Underfull \hbox (badness 10000) in paragraph at lines 646--649
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 646--649
+
+ []
+
+
+Overfull \hbox (1.42734pt too wide) in paragraph at lines 681--681
+[] []\OT1/cmr/m/n/10.95 Brief De-scrip-tion: User se-lects and books flights and trans-porta-tion ser-vices through the Odyssey
+ []
+
+
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 594--597
+Underfull \hbox (badness 10000) in paragraph at lines 731--734
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 594--597
+Underfull \hbox (badness 10000) in paragraph at lines 731--734
 
- []
-
-
-Overfull \hbox (15.79153pt too wide) in paragraph at lines 617--617
- [][] 
  []
 
 
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 679--682
+Underfull \hbox (badness 10000) in paragraph at lines 812--815
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 679--682
+Underfull \hbox (badness 10000) in paragraph at lines 812--815
 
  []
 
 
 
 [16]
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 760--763
+Underfull \hbox (badness 10000) in paragraph at lines 882--885
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--763
+Underfull \hbox (badness 10000) in paragraph at lines 882--885
+
+ []
+
+
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 948--950
 
  []
 
 
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 830--833
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 830--833
-
- []
-
-
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 896--898
-
- []
-
-
-
-[20]
-Overfull \hbox (18.57002pt too wide) in paragraph at lines 915--915
- [][] 
- []
-
-
-
-[21]
-<uml.png, id=246, 974.13937pt x 778.40813pt>
+<uml.png, id=249, 974.13937pt x 778.40813pt>
 File: uml.png Graphic file (type png)
 <use uml.png>
-Package pdftex.def Info: uml.png  used on input line 966.
+Package pdftex.def Info: uml.png  used on input line 1018.
 (pdftex.def)             Requested size: 451.6918pt x 301.13118pt.
-
-Overfull \hbox (33.43625pt too wide) in paragraph at lines 966--967
-[] 
- []
-
-
-
-[22]
-<sqd.jpg, id=255, 511.9125pt x 852.18375pt>
+<sqd.jpg, id=251, 511.9125pt x 852.18375pt>
 File: sqd.jpg Graphic file (type jpg)
 <use sqd.jpg>
-Package pdftex.def Info: sqd.jpg  used on input line 979.
+Package pdftex.def Info: sqd.jpg  used on input line 1031.
 (pdftex.def)             Requested size: 451.68732pt x 552.0924pt.
 
-Overfull \hbox (44.38179pt too wide) in paragraph at lines 979--980
+Overfull \hbox (9.66945pt too wide) in paragraph at lines 1031--1032
 [][] 
  []
 
 
 
-[23 <./uml.png>]
-
-[24 <./sqd.jpg>]
-Overfull \hbox (43.0654pt too wide) in paragraph at lines 1029--1029
+[20 <./uml.png>]
+Overfull \hbox (15.29543pt too wide) in paragraph at lines 1081--1081
  [][] 
  []
 
 
 
-[25]
+[21 <./sqd.jpg>]
 
-[26]
+[22]
 chapter 4.
 
 
-[27
+[23
 
 ] (sdd.aux)
  ***********
@@ -896,17 +883,17 @@ Package rerunfilecheck Info: File `sdd.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27943 strings out of 473920
- 565765 string characters out of 5726974
- 1943908 words of memory out of 5000000
- 50220 multiletter control sequences out of 15000+600000
+ 28430 strings out of 473920
+ 573443 string characters out of 5726974
+ 1947908 words of memory out of 5000000
+ 50701 multiletter control sequences out of 15000+600000
  562938 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,12n,107p,10980b,1225s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\SAKIB\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on sdd.pdf (27 pages, 394677 bytes).
+Output written on sdd.pdf (23 pages, 552378 bytes).
 PDF statistics:
- 384 PDF objects out of 1000 (max. 8388607)
- 165 named destinations out of 1000 (max. 500000)
- 135 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 383 PDF objects out of 1000 (max. 8388607)
+ 164 named destinations out of 1000 (max. 500000)
+ 164 words of extra memory for PDF output out of 10000 (max. 10000000)
 
