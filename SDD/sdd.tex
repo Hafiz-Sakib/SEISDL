@@ -214,45 +214,13 @@ The system architecture of the Odyssey Travel website is designed to provide a r
 
 \section{System Architecture Diagram}
 
-\begin{figure}[ht]
-    \centering
-    \begin{tikzpicture}[node distance=2cm, background rectangle/.style={fill=white!10}, show background rectangle]
-        % Nodes
-        \node (start) [startstop] {Start};
-        \node (frontend) [process, below=0.8cm of start] {Front-End};
-        \node (backend) [process, below=0.8cm of frontend] {Back-End};
-        \node (database) [database, below=0.8cm of backend] {Database};
-        \node (auth) [auth, below=0.8cm of database] {Authentication};
-        \node (ui) [ui, below=0.8cm of auth] {User Interface};
-        
-        % Arrows
-        \draw [arrow] (start) -- (frontend);
-        \draw [arrow] (frontend) -- (backend);
-        \draw [arrow] (backend) -- (database);
-        \draw [arrow] (database) -- (auth);
-        \draw [arrow] (auth) -- (ui);
-        
-        % Labels for nodes
-        \node[above=0.1cm of start] {\textbf{Odyssey Travel System}};
-        \node[left=0.2cm of frontend] {\textbf{Next.js}};
-        \node[left=0.2cm of backend] {\textbf{Node.js}};
-        \node[right=0.2cm of database] {\textbf{SQL}};
-        \node[right=0.2cm of auth] {\textbf{Firebase Authenctication}};
-        \node[right=0.2cm of ui] {\textbf{HTML \& Tailwind CSS}};
-        
-        % Background color for technology nodes
-        \begin{scope}[on background layer]
-            \fill[blue!10] (frontend.south west) rectangle (frontend.north east);
-            \fill[blue!10] (backend.south west) rectangle (backend.north east);
-            \fill[orange!10] (database.south west) rectangle (database.north east);
-            \fill[green!10] (auth.south west) rectangle (auth.north east);
-            \fill[yellow!10] (ui.south west) rectangle (ui.north east);
-        \end{scope}
-    \end{tikzpicture}
-\end{figure}
+{\includegraphics[width=500px, height=480px]{TP2.png}}
+
 \begin{center}
-    \textbf{
-        Fig 2.1 : System Architecture Diagram}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Figure - 2.1 : System Architecture Diagram For Travel Agency Software}
+    }
 \end{center}
 
 

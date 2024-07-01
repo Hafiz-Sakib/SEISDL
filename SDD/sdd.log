@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  30 JUN 2024 22:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  1 JUL 2024 09:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -729,160 +729,172 @@ chapter 1.
 
 [6]
 chapter 2.
+<TP2.png, id=71, 2252.415pt x 2599.7125pt>
+File: TP2.png Graphic file (type png)
+<use TP2.png>
+Package pdftex.def Info: TP2.png  used on input line 217.
+(pdftex.def)             Requested size: 501.85674pt x 481.77232pt.
+
+Overfull \hbox (48.88884pt too wide) in paragraph at lines 217--218
+[] 
+ []
+
 
 
 [7
 
-]
+ <./TP2.png>]
 
 [8]
 
 [9]
+
+[10]
 chapter 3.
-<actd.jpg, id=93, 391.2216pt x 561.7788pt>
+<actd.jpg, id=100, 391.2216pt x 561.7788pt>
 File: actd.jpg Graphic file (type jpg)
 <use actd.jpg>
-Package pdftex.def Info: actd.jpg  used on input line 455.
+Package pdftex.def Info: actd.jpg  used on input line 423.
 (pdftex.def)             Requested size: 451.68623pt x 501.89311pt.
 
 
-[10
+[11
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 469--472
+Underfull \hbox (badness 10000) in paragraph at lines 437--440
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 469--472
-
- []
-
-
-
-[11 <./actd.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 526--529
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 526--529
+Underfull \hbox (badness 10000) in paragraph at lines 437--440
 
  []
 
 
 
-[12]
+[12 <./actd.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 494--497
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--497
+
+ []
+
+
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 598--616
-
- []
-
-
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 671--674
+Underfull \hbox (badness 10000) in paragraph at lines 566--584
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 671--674
-
- []
-
-
-Overfull \hbox (1.42734pt too wide) in paragraph at lines 706--706
-[] []\OT1/cmr/m/n/10.95 Brief De-scrip-tion: User se-lects and books flights and trans-porta-tion ser-vices through the Odyssey
  []
 
 
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 756--759
+Underfull \hbox (badness 10000) in paragraph at lines 639--642
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 756--759
+Underfull \hbox (badness 10000) in paragraph at lines 639--642
 
+ []
+
+
+Overfull \hbox (1.42734pt too wide) in paragraph at lines 674--674
+[] []\OT1/cmr/m/n/10.95 Brief De-scrip-tion: User se-lects and books flights and trans-porta-tion ser-vices through the Odyssey
  []
 
 
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 837--840
+Underfull \hbox (badness 10000) in paragraph at lines 724--727
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 837--840
+Underfull \hbox (badness 10000) in paragraph at lines 724--727
 
  []
 
 
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 907--910
+Underfull \hbox (badness 10000) in paragraph at lines 805--808
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--910
+Underfull \hbox (badness 10000) in paragraph at lines 805--808
 
  []
 
 
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 973--975
+Underfull \hbox (badness 10000) in paragraph at lines 875--878
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 875--878
 
  []
 
 
 
 [19]
+Underfull \hbox (badness 10000) in paragraph at lines 941--943
+
+ []
+
+
 
 [20]
-<uml.png, id=253, 974.13937pt x 778.40813pt>
+
+[21]
+<uml.png, id=260, 974.13937pt x 778.40813pt>
 File: uml.png Graphic file (type png)
 <use uml.png>
-Package pdftex.def Info: uml.png  used on input line 1043.
+Package pdftex.def Info: uml.png  used on input line 1011.
 (pdftex.def)             Requested size: 451.6918pt x 301.13118pt.
-<sqd.jpg, id=255, 511.9125pt x 852.18375pt>
+<sqd.jpg, id=261, 511.9125pt x 852.18375pt>
 File: sqd.jpg Graphic file (type jpg)
 <use sqd.jpg>
-Package pdftex.def Info: sqd.jpg  used on input line 1056.
+Package pdftex.def Info: sqd.jpg  used on input line 1024.
 (pdftex.def)             Requested size: 451.68732pt x 552.0924pt.
 
-Overfull \hbox (9.66945pt too wide) in paragraph at lines 1056--1057
+Overfull \hbox (9.66945pt too wide) in paragraph at lines 1024--1025
 [][] 
  []
 
 
 
-[21 <./uml.png>]
-Overfull \hbox (15.29543pt too wide) in paragraph at lines 1106--1106
+[22 <./uml.png>]
+Overfull \hbox (15.29543pt too wide) in paragraph at lines 1074--1074
  [][] 
  []
 
 
 
-[22 <./sqd.jpg>]
-<erd.png, id=266, 827.34094pt x 476.53032pt>
+[23 <./sqd.jpg>]
+<erd.png, id=272, 827.34094pt x 476.53032pt>
 File: erd.png Graphic file (type png)
 <use erd.png>
-Package pdftex.def Info: erd.png  used on input line 1169.
+Package pdftex.def Info: erd.png  used on input line 1137.
 (pdftex.def)             Requested size: 452.9679pt x 260.90727pt.
 
 
-[23]
+[24]
 
-[24 <./erd.png>]
+[25 <./erd.png>]
 chapter 4.
 
 
-[25
+[26
 
 ] (sdd.aux)
  ***********
@@ -893,17 +905,17 @@ Package rerunfilecheck Info: File `sdd.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28442 strings out of 473920
- 573596 string characters out of 5726974
- 1947908 words of memory out of 5000000
- 50710 multiletter control sequences out of 15000+600000
+ 28395 strings out of 473920
+ 572780 string characters out of 5726974
+ 1943908 words of memory out of 5000000
+ 50662 multiletter control sequences out of 15000+600000
  563106 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,12n,107p,10980b,1225s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\SAKIB\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on sdd.pdf (25 pages, 600113 bytes).
+Output written on sdd.pdf (26 pages, 941230 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 166 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 405 PDF objects out of 1000 (max. 8388607)
+ 167 named destinations out of 1000 (max. 500000)
+ 174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
