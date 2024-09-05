@@ -488,12 +488,31 @@ The activity diagram illustrates user activities and workflows in the Travel Age
         \textbf{Figure - 3.1 : Activity Diagram For Travel Agency Software}
     }
 \end{center}
-\section{Use Cases}
-Use Cases help us to identify the actors involved in an interaction and names the type of interaction.
-This subsection outlines the Use Cases for our system’s users. Use cases are determined following
-the scenarios mentioned in section-6.
 
-\section*{\textbf{3.1.1. UC 1: Users Viewing Packages}}
+\section *{ Use Case Diagram : }
+{\includegraphics[width=450px, height=300px]{uml.png}}
+
+\begin{center}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Figure - 3.3.1 : Use Case Diagram For Travel Agency Software}
+    }
+\end{center}
+
+\section{ Sequence Diagram : }
+
+The sequence diagram illustrates the interaction flow between a user and a travel booking system. It begins with the user browsing available travel packages. Upon selection of a package, the system prompts the user to either log in or register if not authenticated. The user provides their credentials or completes the registration process. 
+
+{\includegraphics[width=450px, height=550px]{sqd.jpg}}
+
+\begin{center}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Figure - 3.4.1 : Sequence Diagram For Travel Agency Software}
+    }
+\end{center}
+
+\section*{\textbf{3.1.1. Sequence Diagram 1: Users Viewing Packages}}
 \textbf{Diagram:}
 \newline
 \newline
@@ -518,39 +537,15 @@ the scenarios mentioned in section-6.
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
-        \textbf{Figure-3.1: Use Case 01}
+        \textbf{Figure-3.1: Sequence Diagram 01}
     }
 \end{center}
 
 \paragraph {\textnormal{Brief Description: 
 Users view available travel packages on the Odyssey Travels platform.}}
 
-\textbf{Preconditions:}
-\begin{itemize}
-    \item User has a working internet connection.
-    \item Odyssey Travels application is installed on the device.
-\end{itemize}
 
-\textbf{Main Success Scenario:}
-\begin{enumerate}
-    \item User opens the Odyssey Travels application.
-    \item System displays the home screen with navigation options: Home, About, Packages, Login, Signup, Contact Us.
-    \item User taps on the "Packages" option from the navigation menu.
-    \item System shows the "Packages" page, listing various travel packages available.
-    \item User scrolls through the list of packages to explore details and options.
-    \item System displays package details including destination, duration, pricing, and amenities.
-    \item User selects a specific package for more detailed information.
-    \item System shows detailed information such as itinerary, inclusions, and exclusions.
-    \item User navigates back to the package list or other sections using navigation buttons.
-\end{enumerate}
-
-\textbf{Postcondition:}
-\begin{itemize}
-    \item System displays the selected package details accurately.
-    \item User can proceed to book the selected package or explore other options.
-\end{itemize}
-
-\section*{\textbf{3.1.2. UC 2: Purchase Plan}}
+\section*{\textbf{3.1.2. Sequence Diagram 2: Purchase Plan}}
 \textbf{Diagram:}
 \newline
 \newline
@@ -576,7 +571,7 @@ Users view available travel packages on the Odyssey Travels platform.}}
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
-        \textbf{Figure-3.2: Use Case 02}
+        \textbf{Figure-3.2: Sequence Diagram 02}
     }
 \end{center}
 \paragraph {\textnormal{Brief Description: 
@@ -589,40 +584,8 @@ User selects and purchases a travel plan on the Odyssey Travels platform.\newlin
     \item User is logged into the Odyssey Travels account.
 \end{itemize}
 
-\textbf{Main Success Scenario:}
-\begin{enumerate}
-    \item System displays the home page of the Odyssey Travels application.
-    \item User navigates to the "Packages" section from the navigation menu.
-    \item System shows a list of available travel packages.
-    \item User selects a specific travel package for purchase.
-    \item System displays detailed information about the selected package, including itinerary, pricing, and booking options.
-    \item User confirms the package selection and taps on the "Book Now" button.
-    \item System prompts the user to enter necessary details such as travel dates, number of travelers, and any additional preferences.
-    \item User fills in the required information and proceeds to the payment section.
-    \item System securely processes the payment using the chosen payment method (e.g., credit card, PayPal).
-    \item System confirms the successful booking and displays a confirmation message with booking details.
-    \item User receives a confirmation email with the booking details.
-\end{enumerate}
 
-\textbf{Postconditions:}
-\begin{itemize}
-    \item User's selected travel plan is successfully booked and confirmed.
-    \item System displays the home page or booking summary for the user to review.
-\end{itemize}
-
-\textbf{Alternative Courses:}
-\begin{itemize}
-    \item[5a.] User explores additional details or options before making a final selection.
-    \item[7a.] User adjusts travel details or preferences before confirming the booking.
-    \item[9a.] Payment transaction fails or encounters issues; system prompts user to retry or choose an alternative payment method.
-\end{itemize}
-
-\textbf{Exceptions:}
-\begin{itemize}
-    \item User may abandon the booking process at any step before final confirmation.
-\end{itemize}
-
-\section*{\textbf{3.1.3. UC 3: Purchase Plan with Apply Coupon}}
+\section*{\textbf{3.1.3. Sequence Diagram 3: Purchase Plan with Apply Coupon}}
 \textbf{Diagram:}
 \newline
 \newline
@@ -644,7 +607,7 @@ User selects and purchases a travel plan on the Odyssey Travels platform.\newlin
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
-        \textbf{Figure-3.3: Use Case 03}
+        \textbf{Figure-3.3: Sequence Diagram 03}
     }
 \end{center}
 
@@ -652,48 +615,9 @@ User selects and purchases a travel plan on the Odyssey Travels platform.\newlin
 \paragraph {\textnormal{Brief Description: 
 User applies a coupon code during the booking process to avail discounts or special offers.}}
 
-\subsection*{\textbf{UC 3: Apply Coupon}}
-
-\textbf{Preconditions:}
-\begin{itemize}
-    \item User has a working internet connection.
-    \item Odyssey Travels application is installed on the device.
-    \item User is logged into the Odyssey Travels account.
-    \item User has selected a travel package and proceeded to the payment section.
-\end{itemize}
-
-\textbf{Main Success Scenario:}
-\begin{enumerate}
-    \item System displays the booking details and prompts the user to apply a coupon code.
-    \item User enters the coupon code in the designated field.
-    \item System verifies the coupon validity and applies the discount to the total booking amount.
-    \item System updates the payment summary to reflect the discounted price.
-    \item User confirms the application of the coupon code.
-    \item System confirms the coupon code application and adjusts the total payable amount accordingly.
-\end{enumerate}
-
-\textbf{Postconditions:}
-\begin{itemize}
-    \item System displays the updated booking summary with the discounted price.
-    \item User proceeds to complete the booking with the discounted price.
-\end{itemize}
-
-\textbf{Alternative Courses:}
-\begin{itemize}
-    \item[3a.] User enters an invalid coupon code or expired coupon.
-    \begin{itemize}
-        \item[3a.01.] System displays an error message indicating the issue with the coupon code.
-        \item[3a.02.] User can retry with a different coupon code or proceed without applying any coupon.
-    \end{itemize}
-\end{itemize}
-
-\textbf{Exceptions:}
-\begin{itemize}
-    \item User may abandon the coupon application process at any step before confirmation.
-\end{itemize}
 
 
-\section*{\textbf{3.1.4. UC 4: Book Flight and Transportation}}
+\section*{\textbf{3.1.4. Sequence Diagram 4: Book Flight and Transportation}}
 
 
 \textbf{Diagram:}
@@ -724,144 +648,57 @@ User applies a coupon code during the booking process to avail discounts or spec
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
-        \textbf{Figure-3.4: Use Case 04}
+        \textbf{Figure-3.4: Sequence Diagram 04}
     }
 \end{center}
 \paragraph {\textnormal{Brief Description: 
 User selects and books flights and transportation services through the Odyssey Travels application.}}
 
 
-\subsection*{\textbf{UC 4: Book Flight and Transportation}}
 
-\textbf{Preconditions:}
-\begin{itemize}
-    \item User has a working internet connection.
-    \item Odyssey Travels application is installed on the device.
-    \item User is logged into the Odyssey Travels account.
-    \item User has navigated to the booking section of the app.
-\end{itemize}
-
-\textbf{Main Success Scenario:}
-\begin{enumerate}
-    \item System displays the home page of the Odyssey Travels App.
-    \item User taps on the 'Book Flight and Transportation' option from the display screen.
-    \item System displays a list of available flights and transportation options.
-    \item User selects a flight and transportation option.
-    \item System prompts user to enter travel details such as departure date, return date, number of passengers, etc.
-    \item User fills in the required details.
-    \item System calculates the total fare and displays the payment summary.
-    \item User confirms the booking details.
-    \item System processes the payment transaction securely.
-    \item System confirms the booking with a booking ID and sends a confirmation email or notification to the user.
-    \item User receives the booking confirmation and can view the booking details in the app.
-\end{enumerate}
-
-\textbf{Postconditions:}
-\begin{itemize}
-    \item System updates the user's booking history with the new booking details.
-    \item User can access the booked flight and transportation details under their account.
-\end{itemize}
-
-\textbf{Alternative Courses:}
-\begin{itemize}
-    \item[5a.] User searches for a specific flight or transportation option not listed.
-    \begin{itemize}
-        \item[5a.01.] System displays a message indicating no results found.
-        \item[5a.02.] User can retry with different search criteria or contact support.
-    \end{itemize}
-\end{itemize}
-
-\textbf{Exceptions:}
-\begin{itemize}
-    \item User may abandon the booking process at any step before confirming the payment.
-\end{itemize}
-
-
-
-\section*{\textbf{3.1.5. UC 5: Book Hotel}}
-
-
+\section*{\textbf{3.1.5. Sequence Diagram 5: Booking Hotel}}
 \textbf{Diagram:}
 \newline
 \newline
+
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
-        \begin{tikzpicture}[>=stealth]
+       
+\begin{tikzpicture}[>=stealth]
 
-            % Actor (stickman)
-            \node[inner sep=0pt] (user) at (0,0) {\tikz{\pic[scale=0.6] {stickman};}};
-            \node[below=0.2cm of user] {User};
-        
-            % Use Cases with color
-            \node[ellipse, draw, fill=green!20, align=center, minimum width=3cm, minimum height=1.5cm, below right=2cm and 2cm of user] (purchase) {Purchase Plan};
-            \node[ellipse, draw, fill=blue!20, align=center, minimum width=3cm, minimum height=1.5cm, right=2cm of purchase] (hotel) {Book Hotel};
-        
-            % Relationships
-            \draw[->] (user) -- (purchase);
-            \draw[->] (purchase) -- (hotel);
-        
-        \end{tikzpicture}
+    % Actor (User)
+    \node[inner sep=0pt] (user) at (0,0) {\tikz{\pic[scale=0.6] {stickman};}};
+    \node[below=0.2cm of user] {User};
+
+    % Use Cases
+    \node[ellipse, draw, fill=blue!20, align=center, minimum width=4cm, minimum height=1.5cm, below right=2cm and 2cm of user] (search) {Search Hotel};
+    \node[ellipse, draw, fill=blue!20, align=center, minimum width=4cm, minimum height=1.5cm, below=1.5cm of search] (select) {Select Room};
+    \node[ellipse, draw, fill=blue!20, align=center, minimum width=4cm, minimum height=1.5cm, below=1.5cm of select] (book) {Book Hotel};
+    \node[ellipse, draw, fill=blue!20, align=center, minimum width=4cm, minimum height=1.5cm, below=1.5cm of book] (payment) {Make Payment};
+
+    % Relationships
+    \draw[->] (user) -- (search);
+    \draw[->] (search) -- (select);
+    \draw[->] (select) -- (book);
+    \draw[->] (book) -- (payment);
+
+\end{tikzpicture}
     }
 \end{center}
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
-        \textbf{Figure-3.5: Use Case 05}
+        \textbf{Figure-3.5: Sequence Diagram 05}
     }
 \end{center}
 
 \paragraph {\textnormal{Brief Description: 
-User selects and books accommodations through the Odyssey Travels application.}}
+User searches for available hotels, selects a room, books the hotel, and completes the transaction through a payment process.}}
 
 
-\subsection*{\textbf{UC 5: Book Hotel}}
 
-\textbf{Preconditions:}
-\begin{itemize}
-    \item User has a working internet connection.
-    \item Odyssey Travels application is installed on the device.
-    \item User is logged into the Odyssey Travels account.
-    \item User has navigated to the hotel booking section of the app.
-\end{itemize}
-
-\textbf{Main Success Scenario:}
-\begin{enumerate}
-    \item System displays the home page of the Odyssey Travels App.
-    \item User taps on the 'Book Hotel' option from the display screen.
-    \item System displays a list of available hotels based on the user's search criteria.
-    \item User selects a hotel from the list.
-    \item System prompts user to enter details such as check-in date, check-out date, number of rooms, etc.
-    \item User fills in the required details.
-    \item System calculates the total cost and displays the payment summary.
-    \item User confirms the booking details.
-    \item System processes the payment transaction securely.
-    \item System confirms the hotel booking with a booking ID and sends a confirmation email or notification to the user.
-    \item User receives the booking confirmation and can view the booking details in the app.
-\end{enumerate}
-
-\textbf{Postconditions:}
-\begin{itemize}
-    \item System updates the user's booking history with the new hotel booking details.
-    \item User can access the booked hotel details under their account.
-\end{itemize}
-
-\textbf{Alternative Courses:}
-\begin{itemize}
-    \item[5a.] User searches for a specific hotel not listed.
-    \begin{itemize}
-        \item[5a.01.] System displays a message indicating no results found.
-        \item[5a.02.] User can retry with different search criteria or contact support.
-    \end{itemize}
-\end{itemize}
-
-\textbf{Exceptions:}
-\begin{itemize}
-    \item User may abandon the booking process at any step before confirming the payment.
-\end{itemize}
-
-
-\section*{\textbf{3.1.6. UC 6: Admin View and Accept/Delete Plans}}
+\section*{\textbf{3.1.6. Sequence Diagram 6: Admin View and Accept/Delete Plans}}
 \textbf{Diagram:}
 \newline
 \newline
@@ -888,7 +725,7 @@ User selects and books accommodations through the Odyssey Travels application.}}
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
-        \textbf{Figure-3.6: Use Case 06}
+        \textbf{Figure-3.6: Sequence Diagram 06}
     }
 \end{center}
 
@@ -896,42 +733,7 @@ User selects and books accommodations through the Odyssey Travels application.}}
 Admin reviews and manages travel plans submitted by users, either accepting or deleting them based on predefined criteria.}}
 
 
-\subsection*{\textbf{Main Success Scenario:}}
-
-\begin{enumerate}
-    \item \textbf{Admin logs into the Odyssey Travels admin panel.}
-    \item Navigates to "Manage Travel Plans" section.
-    \item Views list of submitted plans.
-    \item Selects a plan for detailed review.
-    \item Reviews plan details (itinerary, user info, pricing).
-    \item Evaluates plan against criteria.
-    \item Accepts plan: updates status, notifies user.
-    \item Deletes plan: removes from system, notifies user.
-    \item Records decision and notes.
-\end{enumerate}
-
-\subsection*{\textbf{Postconditions:}}
-
-\begin{itemize}
-    \item Plan status updated in database.
-    \item User notified of plan status.
-\end{itemize}
-
-\subsection*{\textbf{Alternative Courses:}}
-
-\begin{itemize}
-    \item Requests additional info or corrections from user.
-    \item Communicates via internal messaging or email.
-\end{itemize}
-
-\subsection*{\textbf{Exceptions:}}
-
-\begin{itemize}
-    \item Technical issues hindering plan access.
-    \item Admin postpones review.
-\end{itemize}
-
-\section*{\textbf{3.1.7. UC 7: Admin View and Edit Booked Hotels of Users}}
+\section*{\textbf{3.1.7. Sequence Diagram 7: Admin View and Edit Booked Hotels of Users}}
 \textbf{Diagram:}
 \newline
 \newline
@@ -956,48 +758,15 @@ Admin reviews and manages travel plans submitted by users, either accepting or d
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
-        \textbf{Figure-3.7: Use Case 07}
+        \textbf{Figure-3.7: Sequence Diagram 07}
     }
 \end{center}
 
 \paragraph {\textnormal{Brief Description: 
 Admin accesses and modifies hotel bookings made by users through the Odyssey Travels platform.}}
 
-\subsection*{\textbf{Main Success Scenario:}}
 
-\begin{enumerate}
-    \item Admin logs into the Odyssey Travels admin dashboard.
-    \item Navigates to "Manage Booked Hotels" section.
-    \item Views list of booked hotels with user details.
-    \item Selects a booked hotel for editing.
-    \item Reviews booking details (dates, rooms, preferences).
-    \item Edits booking information as required.
-    \item Confirms changes and updates the booking.
-    \item Notifies user of any modifications.
-\end{enumerate}
-
-\subsection*{\textbf{Postconditions:}}
-
-\begin{itemize}
-    \item Booking details updated in the system.
-    \item User notified of changes made.
-\end{itemize}
-
-\subsection*{\textbf{Alternative Courses:}}
-
-\begin{itemize}
-    \item Requests additional information or clarifications from the user.
-    \item Provides support or resolves issues related to the booking.
-\end{itemize}
-
-\subsection*{\textbf{Exceptions:}}
-
-\begin{itemize}
-    \item System downtime affecting access to bookings.
-    \item Admin defers editing due to unforeseen circumstances.
-\end{itemize}
-
-\section*{\textbf{3.1.8. UC 8: Admin View, Edit, Delete Registered Tour Guide's Information}}
+\section*{\textbf{3.1.8. Sequence Diagram 8: Admin View, Edit, Delete Registered Tour Guide's Information}}
 \textbf{Diagram:}
 \newline
 
@@ -1022,73 +791,12 @@ Admin accesses and modifies hotel bookings made by users through the Odyssey Tra
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
-        \textbf{Figure-3.8: Use Case 08}
+        \textbf{Figure-3.8: Sequence Diagram 08}
     }
 \end{center}
 
 \paragraph {\textnormal{Brief Description: 
 Admin manages the information of registered tour guides within the Odyssey Travels platform.}}
-
-\subsection*{\textbf{Main Success Scenario:}}
-
-\begin{enumerate}
-    \item Admin logs into the Odyssey Travels admin dashboard.
-    \item Navigates to "Manage Tour Guides" section.
-    \item Views list of registered tour guides with their details.
-    \item Selects a tour guide for viewing or editing.
-    \item Reviews tour guide's information (contact details, certifications).
-    \item Edits tour guide's information as required.
-    \item Confirms changes and updates the tour guide's profile.
-    \item Deletes tour guide's profile if necessary, after confirmation.
-\end{enumerate}
-
-\subsection*{\textbf{Postconditions:}}
-
-\begin{itemize}
-    \item Tour guide's information updated or deleted as per admin's actions.
-    \item System reflects changes immediately.
-\end{itemize}
-
-\subsection*{\textbf{Alternative Courses:}}
-
-\begin{itemize}
-    \item Admin requests additional documentation or updates from the tour guide.
-    \item Provides feedback or support regarding certification requirements.
-\end{itemize}
-
-\subsection*{\textbf{Exceptions:}}
-
-\begin{itemize}
-    \item Technical issues or system errors may delay updates.
-    \item Admin decides to defer deletion due to ongoing bookings or other dependencies.
-\end{itemize}
-
-\section{Use Case Diagram}
-
-A use case diagram is pivotal in illustrating a user's engagements with the system, depicting the correlation between the user and various use cases they engage in. This diagram serves to provide a comprehensive overview of the system and supports the detailed design process.
-
-\subsection *{ Use Case Diagram : }
-{\includegraphics[width=450px, height=300px]{uml.png}}
-
-\begin{center}
-    \parbox{0.8\textwidth}{ 
-        \centering
-        \textbf{Figure - 3.3.1 : Use Case Diagram For Travel Agency Software}
-    }
-\end{center}
-
-\section{ Sequence Diagram : }
-
-The sequence diagram illustrates the interaction flow between a user and a travel booking system. It begins with the user browsing available travel packages. Upon selection of a package, the system prompts the user to either log in or register if not authenticated. The user provides their credentials or completes the registration process. The system verifies the provided information and authenticates the user. Once authenticated, the user confirms the booking details, including choosing transportation and accommodation options. The system processes the booking request and updates its database accordingly. Following successful booking, the system sends a confirmation message to the user, finalizing the transaction. Throughout this process, error handling mechanisms are in place to manage cases such as incorrect credentials or incomplete registrations. The sequence diagram effectively captures these interactions, detailing how information flows between the user and the system components involved in booking a travel package.
-
-{\includegraphics[width=450px, height=550px]{sqd.jpg}}
-
-\begin{center}
-    \parbox{0.8\textwidth}{ 
-        \centering
-        \textbf{Figure - 3.4.1 : Sequence Diagram For Travel Agency Software}
-    }
-\end{center}
 
 
 \section{Data Flow Diagram}

@@ -8,20 +8,18 @@
 \contentsline {section}{\numberline {2.3}Scalability and Reliability}{11}{section.2.3}%
 \contentsline {chapter}{\numberline {3}UML}{12}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Activity Diagram}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Use Cases}{13}{section.3.2}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Users view available travel packages on the Odyssey Travels platform.}}{14}{paragraph*.5}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User selects and purchases a travel plan on the Odyssey Travels platform.\newline }}{15}{paragraph*.8}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User applies a coupon code during the booking process to avail discounts or special offers.}}{16}{paragraph*.11}%
+\contentsline {section}{\numberline {3.2}Sequence Diagram :}{14}{section.3.2}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Users view available travel packages on the Odyssey Travels platform.}}{16}{paragraph*.6}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User selects and purchases a travel plan on the Odyssey Travels platform.\newline }}{16}{paragraph*.9}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User applies a coupon code during the booking process to avail discounts or special offers.}}{17}{paragraph*.12}%
 \contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User selects and books flights and transportation services through the Odyssey Travels application.}}{17}{paragraph*.15}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User selects and books accommodations through the Odyssey Travels application.}}{19}{paragraph*.19}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Admin reviews and manages travel plans submitted by users, either accepting or deleting them based on predefined criteria.}}{20}{paragraph*.23}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Admin accesses and modifies hotel bookings made by users through the Odyssey Travels platform.}}{21}{paragraph*.30}%
-\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Admin manages the information of registered tour guides within the Odyssey Travels platform.}}{22}{paragraph*.37}%
-\contentsline {section}{\numberline {3.3}Use Case Diagram}{23}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Sequence Diagram :}{23}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Data Flow Diagram}{24}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Level-0 Data Flow Diagram}{25}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Level-1 Data Flow Diagram}{25}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Entity Relationship(ER) Diagram}{26}{section.3.8}%
-\contentsline {chapter}{\numberline {4}Conclussion}{27}{chapter.4}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: User searches for available hotels, selects a room, books the hotel, and completes the transaction through a payment process.}}{18}{paragraph*.18}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Admin reviews and manages travel plans submitted by users, either accepting or deleting them based on predefined criteria.}}{19}{paragraph*.21}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Admin accesses and modifies hotel bookings made by users through the Odyssey Travels platform.}}{19}{paragraph*.24}%
+\contentsline {paragraph}{\nonumberline \textnormal {Brief Description: Admin manages the information of registered tour guides within the Odyssey Travels platform.}}{19}{paragraph*.27}%
+\contentsline {section}{\numberline {3.3}Data Flow Diagram}{19}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Level-0 Data Flow Diagram}{20}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Level-1 Data Flow Diagram}{20}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Entity Relationship(ER) Diagram}{21}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Conclussion}{22}{chapter.4}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
