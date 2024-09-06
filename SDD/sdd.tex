@@ -512,27 +512,11 @@ The sequence diagram illustrates the interaction flow between a user and a trave
     }
 \end{center}
 
-\section*{\textbf{3.1.1. Sequence Diagram 1: Users Viewing Packages}}
+\section*{\textbf{3.1.1. SD 1: Users Viewing Packages}}
 \textbf{Diagram:}
 \newline
 \newline
-\begin{center}
-    \parbox{0.8\textwidth}{ 
-        \centering
-        \begin{tikzpicture}[>=stealth]
-
-            % Actor (stickman)
-            \node[inner sep=0pt] (user) at (0,0) {\tikz{\pic[scale=0.6] {stickman};}};
-        
-            % Use Case with color
-            \node[ellipse, draw, fill=blue!20, align=center, minimum width=3cm, minimum height=1.5cm, below right=2cm and 2cm of user] (view) {View Packages};
-        
-            % Relationships
-            \draw[->] (user) -- (view);
-        
-        \end{tikzpicture}
-    }
-\end{center}
+{\includegraphics[width=350px, height=350px]{sd1.png}}
 
 \begin{center}
     \parbox{0.8\textwidth}{ 
@@ -545,28 +529,11 @@ The sequence diagram illustrates the interaction flow between a user and a trave
 Users view available travel packages on the Odyssey Travels platform.}}
 
 
-\section*{\textbf{3.1.2. Sequence Diagram 2: Purchase Plan}}
+\section*{\textbf{3.1.2. SD 2: Purchase Plan}}
 \textbf{Diagram:}
 \newline
 \newline
-\begin{center}
-    \parbox{0.8\textwidth}{ 
-        \centering
-        \begin{tikzpicture}[>=stealth]
-
-            % Actor (stickman)
-            \node[inner sep=0pt] (user) at (0,0) {\tikz{\pic[scale=0.6] {stickman};}};
-            \node[below=0.2cm of user] {User};
-        
-            % Use Case with color
-            \node[ellipse, draw, fill=green!20, align=center, minimum width=3cm, minimum height=1.5cm, below right=2cm and 2cm of user] (purchase) {Purchase Plan};
-        
-            % Relationships
-            \draw[->] (user) -- (purchase);
-        
-        \end{tikzpicture}
-    }
-\end{center}
+{\includegraphics[width=350px, height=350px]{sd2.jpg}}
 
 \begin{center}
     \parbox{0.8\textwidth}{ 
@@ -585,25 +552,11 @@ User selects and purchases a travel plan on the Odyssey Travels platform.\newlin
 \end{itemize}
 
 
-\section*{\textbf{3.1.3. Sequence Diagram 3: Purchase Plan with Apply Coupon}}
+\section*{\textbf{3.1.3. SD 3: Purchase Plan with Apply Coupon}}
 \textbf{Diagram:}
 \newline
-\newline
-\begin{tikzpicture}[>=stealth]
-
-    % Actor (stickman)
-    \node[inner sep=0pt] (user) at (0,0) {\tikz{\pic[scale=0.6] {stickman};}};
-    \node[below=0.2cm of user] {User};
-
-    % Use Cases with color
-    \node[ellipse, draw, fill=green!20, align=center, minimum width=3cm, minimum height=1.5cm, below right=2cm and 2cm of user] (purchase) {Purchase Plan};
-    \node[ellipse, draw, fill=yellow!20, align=center, minimum width=3cm, minimum height=1.5cm, right=2cm of purchase] (apply) {Apply Coupon};
-
-    % Relationships
-    \draw[->] (user) -- (purchase);
-    \draw[->] (purchase) -- (apply);
-
-\end{tikzpicture}
+\newline\textsc{
+{\includegraphics[width=350px, height=350px]{sd3.jpg}}}
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
@@ -617,34 +570,13 @@ User applies a coupon code during the booking process to avail discounts or spec
 
 
 
-\section*{\textbf{3.1.4. Sequence Diagram 4: Book Flight and Transportation}}
+\section*{\textbf{3.1.4. SD 4: Book Flight and Transportation}}
 
 
 \textbf{Diagram:}
 \newline
 \newline
-\begin{center}
-    \parbox{0.8\textwidth}{ 
-        \centering
-        \begin{tikzpicture}[>=stealth]
-
-            % Actor (stickman)
-            \node[inner sep=0pt] (user) at (0,0) {\tikz{\pic[scale=0.6] {stickman};}};
-            \node[below=0.2cm of user] {User};
-        
-            % Use Cases with color
-            \node[ellipse, draw, fill=green!20, align=center, minimum width=3cm, minimum height=1.5cm, below right=2cm and 2cm of user] (purchase) {Purchase Plan};
-            \node[ellipse, draw, fill=blue!20, align=center, minimum width=3cm, minimum height=1.5cm, right=2cm of purchase] (flight) {Book Flight};
-            \node[ellipse, draw, fill=orange!20, align=center, minimum width=3cm, minimum height=1.5cm, below=2cm of flight] (transportation) {Book Transportation};
-        
-            % Relationships
-            \draw[->] (user) -- (purchase);
-            \draw[->] (purchase) -- (flight);
-            \draw[->] (purchase) |- (transportation);
-        
-        \end{tikzpicture}
-    }
-\end{center}
+{\includegraphics[width=350px, height=350px]{sd4.jpg}}
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
@@ -656,36 +588,12 @@ User selects and books flights and transportation services through the Odyssey T
 
 
 
-\section*{\textbf{3.1.5. Sequence Diagram 5: Booking Hotel}}
+\section*{\textbf{3.1.5. SD 5: Booking Hotel}}
 \textbf{Diagram:}
 \newline
 \newline
 
-\begin{center}
-    \parbox{0.8\textwidth}{ 
-        \centering
-       
-\begin{tikzpicture}[>=stealth]
-
-    % Actor (User)
-    \node[inner sep=0pt] (user) at (0,0) {\tikz{\pic[scale=0.6] {stickman};}};
-    \node[below=0.2cm of user] {User};
-
-    % Use Cases
-    \node[ellipse, draw, fill=blue!20, align=center, minimum width=4cm, minimum height=1.5cm, below right=2cm and 2cm of user] (search) {Search Hotel};
-    \node[ellipse, draw, fill=blue!20, align=center, minimum width=4cm, minimum height=1.5cm, below=1.5cm of search] (select) {Select Room};
-    \node[ellipse, draw, fill=blue!20, align=center, minimum width=4cm, minimum height=1.5cm, below=1.5cm of select] (book) {Book Hotel};
-    \node[ellipse, draw, fill=blue!20, align=center, minimum width=4cm, minimum height=1.5cm, below=1.5cm of book] (payment) {Make Payment};
-
-    % Relationships
-    \draw[->] (user) -- (search);
-    \draw[->] (search) -- (select);
-    \draw[->] (select) -- (book);
-    \draw[->] (book) -- (payment);
-
-\end{tikzpicture}
-    }
-\end{center}
+{\includegraphics[width=350px, height=350px]{sd5.jpg}}
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
@@ -698,30 +606,12 @@ User searches for available hotels, selects a room, books the hotel, and complet
 
 
 
-\section*{\textbf{3.1.6. Sequence Diagram 6: Admin View and Accept/Delete Plans}}
+\section*{\textbf{3.1.6. SD 6: Admin View and Accept/Delete Plans}}
 \textbf{Diagram:}
 \newline
 \newline
 
-\begin{center}
-    \parbox{0.8\textwidth}{ 
-        \centering
-       
-\begin{tikzpicture}[>=stealth]
-
-    % Actor (Admin)
-    \node[inner sep=0pt] (admin) at (0,0) {\tikz{\pic[scale=0.6] {stickman};}};
-    \node[below=0.2cm of admin] {Admin};
-
-    % Use Case with color
-    \node[ellipse, draw, fill=orange!20, align=center, minimum width=4cm, minimum height=1.5cm, below right=2cm and 2cm of admin] (view) {View and Accept/Delete Plans};
-
-    % Relationships
-    \draw[->] (admin) -- (view);
-
-\end{tikzpicture}
-    }
-\end{center}
+{\includegraphics[width=350px, height=350px]{sd6.jpg}}
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
@@ -733,28 +623,12 @@ User searches for available hotels, selects a room, books the hotel, and complet
 Admin reviews and manages travel plans submitted by users, either accepting or deleting them based on predefined criteria.}}
 
 
-\section*{\textbf{3.1.7. Sequence Diagram 7: Admin View and Edit Booked Hotels of Users}}
+\section*{\textbf{3.1.7. SD 7: Admin View and Edit Booked Hotels of Users}}
 \textbf{Diagram:}
 \newline
 \newline
 
-\begin{center}
-    \parbox{0.8\textwidth}{ 
-        \centering
-        \begin{tikzpicture}[>=stealth]
-            % Actor (Admin)
-            \node[inner sep=0pt] (admin) at (0,0) {\tikz{\pic[scale=0.6] {stickman};}};
-            \node[below=0.2cm of admin] {Admin};
-        
-            % Use Case with color
-            \node[ellipse, draw, fill=orange!20, align=center, minimum width=6cm, minimum height=1.5cm, below right=2cm and 2cm of admin] (view) {View and Edit Booked Hotels of Users};
-        
-            % Relationships
-            \draw[->] (admin) -- (view);
-        
-        \end{tikzpicture}
-    }
-\end{center}
+{\includegraphics[width=350px, height=350px]{sd7.jpg}}
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
@@ -766,28 +640,11 @@ Admin reviews and manages travel plans submitted by users, either accepting or d
 Admin accesses and modifies hotel bookings made by users through the Odyssey Travels platform.}}
 
 
-\section*{\textbf{3.1.8. Sequence Diagram 8: Admin View, Edit, Delete Registered Tour Guide's Information}}
+\section*{\textbf{3.1.8. SD 8: Admin View, Edit, Delete Registered Tour Guide's Information}}
 \textbf{Diagram:}
 \newline
 
-\begin{center}
-    \parbox{0.8\textwidth}{ 
-        \centering
-        \begin{tikzpicture}[>=stealth]
-
-            % Actor (Admin)
-            \node[inner sep=0pt] (admin) at (0,0) {\tikz{\pic[scale=0.6] {stickman};}};
-            \node[below=0.2cm of admin] {Admin};
-        
-            % Use Case with color
-            \node[ellipse, draw, fill=orange!20, align=center, minimum width=6cm, minimum height=1.5cm, below right=2cm and 2cm of admin] (view) {View, Edit, Delete Tour Guide's Information};
-        
-            % Relationships
-            \draw[->] (admin) -- (view);
-        
-        \end{tikzpicture}
-    }
-\end{center}
+{\includegraphics[width=350px, height=350px]{sd8.jpg}}
 \begin{center}
     \parbox{0.8\textwidth}{ 
         \centering
@@ -933,8 +790,8 @@ The relationships among these entities are as follows:
     \item \textbf{bookings} links to \textbf{tour\_guides} via \texttt{guide\_id}.
 \end{itemize}
 
-\chapter{Conclussion}
+\chapter{Conclusion}
 
-In conclusion, the design of the Travel Agency Software presents a robust framework aimed at enhancing user experience and operational efficiency. By leveraging modern technologies such as Next.js for frontend development, Node.js for backend logic, and SQL databases for data management, the system ensures scalability and reliability. The integration of Tailwind CSS enhances the user interface, offering a responsive and visually appealing design. Authentication mechanisms using custom middleware and JWT tokens provide secure access control. The system's modular architecture facilitates easy maintenance and future enhancements, ensuring adaptability to evolving business needs. Overall, the Travel Agency Software is poised to streamline booking processes, optimize resource utilization, and deliver a seamless travel booking experience for users.
+In Conclusion, the design of the Travel Agency Software presents a robust framework aimed at enhancing user experience and operational efficiency. By leveraging modern technologies such as Next.js for frontend development, Node.js for backend logic, and SQL databases for data management, the system ensures scalability and reliability. The integration of Tailwind CSS enhances the user interface, offering a responsive and visually appealing design. Authentication mechanisms using custom middleware and JWT tokens provide secure access control. The system's modular architecture facilitates easy maintenance and future enhancements, ensuring adaptability to evolving business needs. Overall, the Travel Agency Software is poised to streamline booking processes, optimize resource utilization, and deliver a seamless travel booking experience for users.
 
 \end{document}
