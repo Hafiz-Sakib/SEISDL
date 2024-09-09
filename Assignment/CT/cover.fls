@@ -297,12 +297,6 @@ INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-s
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT .\cover.out
-INPUT .\cover.out
-INPUT cover.out
-INPUT cover.out
-INPUT .\cover.out
-INPUT .\cover.out
 OUTPUT cover.out
 OUTPUT cover.pdf
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bookmark.sty
