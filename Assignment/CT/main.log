@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  9 SEP 2024 11:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  9 SEP 2024 11:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -903,8 +903,7 @@ tex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count330
 \l__pdf_internal_box=\box94
-)
-No file main.aux.
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
@@ -1026,12 +1025,12 @@ File: logo.png Graphic file (type png)
 Package pdftex.def Info: logo.png  used on input line 79.
 (pdftex.def)             Requested size: 226.48395pt x 115.70114pt.
 
-Overfull \hbox (25.19997pt too wide) in paragraph at lines 98--111
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 98--113
  [] 
  []
 
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 115--130
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 117--132
  [][][] 
  []
 
@@ -1044,37 +1043,37 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 115--130
 {C:/Users/SAKIB/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo.png>]
 
 c:/PU Projects/PUC Courses/5th Semester/SEISDL Project/Assignment/CT/main.tex:1
-53: Missing $ inserted.
+55: Missing $ inserted.
 <inserted text> 
                 $
-l.153 ...tilities Cost (Yearly) & \$1{,}500 \times
+l.155 ...tilities Cost (Yearly) & \$1{,}500 \times
                                                    12 = \$18{,}000 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 c:/PU Projects/PUC Courses/5th Semester/SEISDL Project/Assignment/CT/main.tex:1
-54: Missing $ inserted.
+56: Missing $ inserted.
 <inserted text> 
                 $
-l.154 \hline
+l.156 \hline
             
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 []|\TS1/cmr/m/n/10.95 $\OT1/cmr/m/n/10.95 40,000 (Ap-prox-i-
  []
 
 
 
 [2]
-Overfull \hbox (146.38159pt too wide) in paragraph at lines 206--219
+Overfull \hbox (146.38159pt too wide) in paragraph at lines 208--221
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--245
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
 
  []
 
@@ -1096,10 +1095,10 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28531 strings out of 473920
- 572468 string characters out of 5726974
+ 28534 strings out of 473920
+ 572574 string characters out of 5726974
  1941908 words of memory out of 5000000
- 50936 multiletter control sequences out of 15000+600000
+ 50937 multiletter control sequences out of 15000+600000
  565704 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,12n,107p,10990b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1115,7 +1114,7 @@ a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/SAKI
 B/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:
 /Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb>
-Output written on main.pdf (3 pages, 172987 bytes).
+Output written on main.pdf (3 pages, 173037 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
