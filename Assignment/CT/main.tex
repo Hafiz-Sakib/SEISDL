@@ -1,13 +1,136 @@
-\documentclass{article}
+\documentclass{scrreprt}
 \usepackage{amsmath}
-\usepackage{booktabs}
+\usepackage{listings}
 \usepackage{array}
+\usepackage{tikz} 
+\usepackage{underscore}
+\usepackage[bookmarks=true]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{enumitem}
+\usepackage[a4paper, margin=1in]{geometry}
+\usetikzlibrary{shapes, arrows.meta, positioning, backgrounds}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{shapes.geometric, positioning, arrows.meta}
+\usetikzlibrary{positioning}
+% Define styles for different node types
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!30]
+\tikzstyle{process} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+% Define stickman style
+\tikzset{
+    startstop/.style={
+        rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=gray!30
+    },
+    process/.style={
+        rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30
+    },
+    decision/.style={
+        diamond, aspect=2, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30
+    },
+    arrow/.style={
+        thick, ->, >=stealth
+    },
+    stickman/.pic={
+        % Head
+        \draw[fill=gray] (0,0.6) circle (0.3cm);
+        % Body
+        \draw[line width=0.5mm] (0,0.3) -- (0,-0.6);
+        % Arms
+        \draw[line width=0.5mm] (-0.4,0.3) -- (0.4,0.3);
+        % Legs
+        \draw[line width=0.5mm] (0,-0.6) -- (-0.4,-1.2);
+        \draw[line width=0.5mm] (0,-0.6) -- (0.4,-1.2);
+}
+}
+\hypersetup{
+    bookmarks=false,    % show bookmarks bar?
+    pdftitle={Software Requirement Specification},    % title
+    pdfauthor={Jean-Philippe Eisenbarth},                     % author
+    pdfsubject={TeX and LaTeX},                        % subject of the document
+    pdfkeywords={TeX, LaTeX, graphics, images}, % list of keywords
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=blue,       % color of internal links
+    citecolor=black,       % color of links to bibliography
+    filecolor=black,        % color of file links
+    urlcolor=purple,        % color of external links
+    linktoc=page            % only page is linked
+}
+\usetikzlibrary{shapes, arrows.meta, positioning, backgrounds}
 
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!30]
+\tikzstyle{process} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=blue!10]
+\tikzstyle{database} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{auth} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{ui} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=yellow!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+
+
+\usepackage{hyperref}
 % Set extra row height and padding
 \setlength{\extrarowheight}{4pt} % Adds extra height between rows
 \renewcommand{\arraystretch}{1.5} % Increases the height of each row
 
 \begin{document}
+\begin{titlepage}
+    \centering
+    \begin{center}
+        \includegraphics[width=0.5\textwidth]{logo.png} % Adjust width as necessary
+    \end{center}
+\begin{center}
+    \textbf{Department of Computer Science and Engineering}\\
+    Premier University
+\end{center}
+\begin{center}
+    \huge \textnormal{CSE 305: Software Engineering \& Information System 
+                     Design}
+    \vspace{1in} % Adjusts vertical space after the course title
+    \newline
+    \Large \textnormal{Title: CT-03 Assignment}
+    \vspace{0.5in} % Adjusts vertical space after the assignment title
+\end{center}
+
+    \large
+    \textbf {Submitted by}\\
+   \begin{center}
+\renewcommand{\arraystretch}{1.5} % Adjusts vertical spacing in the table
+\begin{tabular}{|p{0.4\textwidth}|p{0.6\textwidth}|} % Set column widths to 20% and 80%
+\hline
+\textbf{Name} & Mohammad Hafizur Rahman Sakib \\
+\hline
+\textbf{ID} & 0222210005101118 \\
+\hline
+\textbf{Section} & C \\
+\hline
+\textbf{Session} & Spring 2024 \\
+\hline
+\textbf{Submission Date} & 10.09.2024 \\
+\hline
+\end{tabular}
+\end{center}
+
+    \vspace{0.5in}
+ 
+\begin{minipage}[t]{0.5\textwidth}
+        \textbf{Submitted to :}
+        \\Jannatul Maowa Hasi
+        \\Lecturer,Department of CSE
+        \\ Premier University
+        \\ Chittagong
+    \end{minipage}%
+    \begin{minipage}[t]{0.6\textwidth}
+        \raggedleft
+        \textbf{Remarks}\\
+        \vspace{0.5cm} % Adjust vertical space for remarks
+        \begin{tikzpicture}
+            \draw[thick, rounded corners] (0,0) rectangle (4,2);
+        \end{tikzpicture}
+    \end{minipage}
+
+    \date{\today}
+    \vfill
+\end{titlepage}
 
 \section*{Cost Analysis}
 
@@ -29,7 +152,7 @@
 \hline
 \hspace{10pt} Utilities Cost (Yearly) & \$1{,}500 \times 12 = \$18{,}000 \\
 \hline
-\textbf{Marketing Costs} & \$40{,}000 \\
+\textbf{Marketing Costs} & \$40{,}000 (Approximately) \\
 \hline
 \textbf{Other Costs} & \\
 \hline
