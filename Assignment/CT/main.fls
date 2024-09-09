@@ -297,6 +297,12 @@ INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-s
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
+INPUT .\main.out
+INPUT .\main.out
+INPUT main.out
+INPUT main.out
+INPUT .\main.out
+INPUT .\main.out
 OUTPUT main.out
 OUTPUT main.pdf
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bookmark.sty
@@ -335,6 +341,9 @@ INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tf
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\base\omscmr.fd
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcbx1095.tfm
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT main.aux
