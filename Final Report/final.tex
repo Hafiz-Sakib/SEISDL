@@ -1,0 +1,376 @@
+\documentclass{scrreprt}
+\usepackage{listings}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{tikz} 
+\usepackage{underscore}
+\usepackage[x11names]{xcolor} 
+\usepackage{array} 
+\setlength{\arrayrulewidth}{0.5mm} 
+\setlength{\tabcolsep}{12pt} 
+\renewcommand{\arraystretch}{1.5} 
+\usepackage[bookmarks=true]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[english]{babel}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage[a4paper, margin=1in]{geometry}
+\usetikzlibrary{shapes, arrows.meta, positioning, backgrounds}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{shapes.geometric, positioning, arrows.meta}
+\usetikzlibrary{shapes.geometric, positioning, arrows.meta}
+\usetikzlibrary{positioning}
+% Define styles for different node types
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!30]
+\tikzstyle{process} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+% Define stickman style
+\tikzset{
+    startstop/.style={
+        rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=gray!30
+    },
+    process/.style={
+        rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30
+    },
+    decision/.style={
+        diamond, aspect=2, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30
+    },
+    arrow/.style={
+        thick, ->, >=stealth
+    },
+    stickman/.pic={
+        % Head
+        \draw[fill=gray] (0,0.6) circle (0.3cm);
+        % Body
+        \draw[line width=0.5mm] (0,0.3) -- (0,-0.6);
+        % Arms
+        \draw[line width=0.5mm] (-0.4,0.3) -- (0.4,0.3);
+        % Legs
+        \draw[line width=0.5mm] (0,-0.6) -- (-0.4,-1.2);
+        \draw[line width=0.5mm] (0,-0.6) -- (0.4,-1.2);
+}
+}
+\hypersetup{
+    bookmarks=false,    % show bookmarks bar?
+    pdftitle={Software Requirement Specification},    % title
+    pdfauthor={Jean-Philippe Eisenbarth},                     % author
+    pdfsubject={TeX and LaTeX},                        % subject of the document
+    pdfkeywords={TeX, LaTeX, graphics, images}, % list of keywords
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=blue,       % color of internal links
+    citecolor=black,       % color of links to bibliography
+    filecolor=black,        % color of file links
+    urlcolor=purple,        % color of external links
+    linktoc=page            % only page is linked
+}
+\usetikzlibrary{shapes, arrows.meta, positioning, backgrounds}
+
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!30]
+\tikzstyle{process} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=blue!10]
+\tikzstyle{database} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{auth} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{ui} = [rectangle, minimum width=3.5cm, minimum height=1cm, text centered, draw=black, fill=yellow!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+
+
+\usepackage{hyperref}
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \begin{center}
+        \includegraphics[width=0.5\textwidth]{./logo.png} % Adjust width as necessary
+    \end{center}
+\begin{center}
+    \textbf{Department of Computer Science and Engineering}\\
+    Premier University
+\end{center}
+\begin{center}
+    \textnormal{ CSE306: Software Engineering \& Information System Design Laboratory }
+\end{center}
+    \huge
+    \textbf{Software Design Document}\\
+    \vspace{0.5in}
+    \LARGE
+    \textbf{Odyssey Travel Agency Software}\\
+    \vspace{1in}
+    \large
+    \textbf {Submitted by}\\
+    \begin{center}
+        \renewcommand{\arraystretch}{1.5} % Adjusts vertical spacing in the table
+        \begin{tabular}{|>{\raggedright\arraybackslash}p{0.6\textwidth}|p{0.3\textwidth}|} % Adjust column widths
+        \hline
+        \textbf{Name} & \textbf{ID} \\
+        \hline
+        Mohammad Hafizur Rahman Sakib & 0222210005101118 \\
+        \hline
+        Arnab Shikder & 0222210005101098 \\
+        \hline
+        Mohammad Ohidul Alam & 0222210005101123 \\
+        \hline
+        Sayed Hossain & 0222210005101102 \\
+        \hline
+        Mohammad Asmual Hoque Yousha & 0222210005101121 \\
+        \hline
+        \end{tabular}
+        \end{center}
+    \vspace{0.5in}
+ 
+\begin{minipage}[t]{0.5\textwidth}
+        \textbf{Submitted to :}
+        \\Jannatul Maowa Hasi
+        \\Lecturer,Department of CSE
+        \\ Premier University
+        \\ Chittagong
+    \end{minipage}%
+    \begin{minipage}[t]{0.6\textwidth}
+        \raggedleft
+        \textbf{Remarks}\\
+        \vspace{0.5cm} % Adjust vertical space for remarks
+        \begin{tikzpicture}
+            \draw[thick, rounded corners] (0,0) rectangle (4,2);
+        \end{tikzpicture}
+    \end{minipage}
+
+    \date{\today}
+    \vfill
+\end{titlepage}
+\newpage
+
+
+
+\tableofcontents
+\begin{center}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Index of Diagrams}
+        
+        \begin{itemize}
+            \item \textbf{Figure-1.1:} Flow Chart for Travel Agency Software \dotfill 04
+            \item \textbf{Figure-2.1:} System Architecture Diagram \dotfill 06
+            \item \textbf{Figure-3.1:} Activity Diagram For Travel Agency Software \dotfill 10
+            \item \textbf{Figure-3.1:} Use Case 01 \dotfill 11
+            \item \textbf{Figure-3.2:} Use Case 02 \dotfill 12
+            \item \textbf{Figure-3.3:} Use Case 03 \dotfill 13
+            \item \textbf{Figure-3.4:} Use Case 04 \dotfill 14
+            \item \textbf{Figure-3.5:} Use Case 05 \dotfill 15
+            \item \textbf{Figure-3.6:} Use Case 06 \dotfill 17
+            \item \textbf{Figure-3.7:} Use Case 07 \dotfill 18
+            \item \textbf{Figure-3.8:} Use Case 08 \dotfill 19
+            \item \textbf{Figure-3.3.1:} Use Case Diagram For Travel Agency Software \dotfill 20
+            \item \textbf{Figure-3.4.1:} Sequence Diagram For Travel Agency Software \dotfill 21
+            \item \textbf{Figure-3.6:} Level 0 DFD of Travel Agency Software \dotfill 22
+            \item \textbf{Figure-3.7:} Level 1 DFD of Travel Agency Software \dotfill 22
+            \item \textbf{Figure-3.8:} Entity Relationship(ER) Diagram For Travel Agency Software \dotfill 23
+        \end{itemize}
+    }
+\end{center}
+
+\chapter{Introduction}
+The purpose of this document is to provide a comprehensive description of the webbased project named ”Odyssey Travels,” developed using Next.js. It aims to outline the
+system’s objectives, functionalities, user interfaces, operational constraints, and how it
+handles external interactions. This document serves as a detailed guide for stakeholders
+and developers involved in the project, ensuring a clear understanding of the system’s
+scope and requirements. It will define how ”Odyssey Travels” enhances the online travel
+booking experience through innovative features and responsive web interfaces.
+This web-based application, ”Odyssey Travels,” is designed to enhance user efficiency
+and streamline travel planning processes. It aims to empower users by providing intuitive tools to manage and prioritize travel itineraries and bookings seamlessly. Users
+will no longer need to rely on traditional methods like spreadsheets or multiple websites to organize their travel plans. ”Odyssey Travels” will enable users to categorize
+and prioritize travel activities effortlessly, ensuring optimal utilization of their time and
+resources. By offering clear insights into itinerary management and suggesting efficient
+scheduling of activities, the application enhances user productivity while maintaining
+ease of use. Specifically, the system will guide users in making informed decisions about
+their travel plans, suggesting ideal times for activities to maximize efficiency throughout
+their journey. It will help users save valuable time by centralizing booking processes
+and providing real-time updates on travel arrangements. Additionally, the application
+will assist users in optimizing their itineraries by recommending adjustments or identifying unnecessary tasks, ensuring that their travel experiences are both productive and
+fulfilling. Overall, ”Odyssey Travels” aims to revolutionize the travel planning experience by offering a user-friendly interface that simplifies task management and enhances
+productivity, thereby meeting the diverse needs of modern travelers.
+
+
+\chapter{System Architecture}
+The system architecture of the Odyssey Travel website is designed to provide a robust and scalable platform for managing travel bookings and related services. It comprises several key components:
+
+\section{System Architecture Diagram}
+
+{\includegraphics[width=500px, height=480px]{SAD.png}}
+
+\begin{center}
+    \parbox{0.8\textwidth}{ 
+        \centering
+        \textbf{Figure - 2.1 : System Architecture Diagram For Travel Agency Software}
+    }
+\end{center}
+
+\section{System Architecture Overview}
+
+The system architecture of \textbf{Odyssey Travels} is designed to efficiently manage travel planning and booking processes. It is structured around a web-based software application that interacts with various user types—visitors, registered users, and administrators.
+
+\subsection{Client-Side (Frontend)}
+The user interface is built using \textbf{Next.js}, a React framework that supports server-side rendering for fast and efficient page loads. The application is optimized for both desktop and mobile devices, ensuring a responsive and user-friendly experience. Key features include browsing travel packages, booking accommodations, and managing user profiles. The interface components are designed to be intuitive, allowing users to navigate the site easily.
+
+\subsection{Server-Side (Backend)}
+The backend handles all data processing and business logic. It uses RESTful APIs to manage communication between the client-side and server-side components. The server processes user requests, interacts with databases to retrieve or store information, and ensures that all transactions are securely handled.
+
+\subsection{Database}
+The application utilizes a relational database to store user information, booking details, travel packages, and other related data. The database is designed for quick access and secure data storage, ensuring that user information is protected and easily retrievable.
+
+\subsection{Integration with External Services}
+Odyssey Travels integrates with external services such as payment gateways (e.g., PayPal, Stripe) for secure transactions and mapping services (e.g., Google Maps) to provide location-based functionalities. Communication interfaces like SMTP or Email APIs are used to manage booking confirmations and notifications, ensuring users are kept informed throughout their travel planning process.
+
+\subsection{Admin Dashboard}
+Administrators have access to a dedicated dashboard where they can manage travel packages, oversee user bookings, and perform system maintenance. This component allows for efficient system management and ensures that the application remains up-to-date and functional.
+
+\subsection{Security and Reliability}
+The architecture includes robust security measures such as HTTPS for encrypted data transmission, secure authentication protocols, and regular security audits to protect user data and maintain system integrity. The system is designed to be highly reliable, with mechanisms in place to handle errors gracefully and ensure continuous operation even in the event of unexpected issues.
+
+\chapter*{Test Case Design}
+
+% Table 1 - TC001
+\begin{longtable}{| m{2cm} | m{5cm} | m{4cm} | m{4cm} |}
+\hline
+\textbf{Test Case ID:} & \multicolumn{3}{l|}{TC001} \\ \hline
+\textbf{Test Scenario:} & \multicolumn{3}{l|}{Verify successful user registration} \\ \hline
+\textbf{Test Case:} & \multicolumn{3}{l|}{Register a new user on the platform} \\ \hline
+\textbf{Pre-Condition:} & \multicolumn{3}{l|}{The user is on the registration page and has not registered before.} \\ \hline
+\textbf{Test Steps} & \textbf{Test Data} & \textbf{Expected Result} & \textbf{Post Condition} \\ \hline
+1. Navigate to the registration page. & URL: /register & The registration page loads successfully. & The user is presented with a registration form. \\ \hline
+2. Enter a valid username. & Username: user123 & The username is accepted by the system. & The system accepts the username. \\ \hline
+3. Enter a valid email. & Email: user@example.com & The email is accepted by the system. & The system accepts the email address. \\ \hline
+4. Enter a secure password. & Password: Password123! & The password is accepted by the system. & The system accepts the password. \\ \hline
+5. Click "Register". & N/A & The user is successfully registered and redirected to the login page with a confirmation message. & User account is created, and the system is updated with the new user details. \\ \hline
+\end{longtable}
+
+\vspace{1cm}
+
+% Table 2 - TC002
+\begin{longtable}{| m{2cm} | m{5cm} | m{4cm} | m{4cm} |}
+\hline
+
+\textbf{Test Case ID:} & \multicolumn{3}{l|}{TC002} \\ \hline
+\textbf{Test Scenario:} & \multicolumn{3}{l|}{Verify successful user login} \\ \hline
+\textbf{Test Case:} & \multicolumn{3}{l|}{Log in with valid credentials} \\ \hline
+\textbf{Pre-Condition:} & \multicolumn{3}{l|}{The user must be registered and on the login page.} \\ \hline
+\textbf{Test Steps} & \textbf{Test Data} & \textbf{Expected Result} & \textbf{Post Condition} \\ \hline
+1. Navigate to the login page. & URL: /login & The login page loads successfully. & The user is presented with a login form. \\ \hline
+2. Enter the registered email. & Email: user@example.com & The email is recognized by the system. & The system accepts the email address. \\ \hline
+3. Enter the correct password. & Password: Password123! & The password is recognized by the system. & The system accepts the password. \\ \hline
+4. Click "Login". & N/A & User successfully logs in and is redirected to the home page. & User session is initiated, and the user is logged into the system. \\ \hline
+\end{longtable}
+
+\vspace{1cm}
+
+% Table 3 - TC003
+\begin{longtable}{| m{2cm} | m{5cm} | m{4cm} | m{4cm} |}
+\hline
+
+\textbf{Test Case ID:} & \multicolumn{3}{l|}{TC003} \\ \hline
+\textbf{Test Scenario:} & \multicolumn{3}{l|}{Verify successful travel package viewing by visitors} \\ \hline
+\textbf{Test Case:} & \multicolumn{3}{l|}{View travel packages as a visitor} \\ \hline
+\textbf{Pre-Condition:} & \multicolumn{3}{l|}{User is not logged in and on the website's home page.} \\ \hline
+\textbf{Test Steps} & \textbf{Test Data} & \textbf{Expected Result} & \textbf{Post Condition} \\ \hline
+1. Navigate to the home page. & URL: /home & The home page loads successfully with the "Packages" menu option visible. & The visitor can see the available travel packages. \\ \hline
+2. Click on the "Packages" menu option. & N/A & Visitor can view a list of available travel packages, including destination, duration, and price details. & System displays travel packages without requiring a user login. \\ \hline
+\end{longtable}
+
+\vspace{1cm}
+
+% Table 4 - TC004
+\begin{longtable}{| m{2cm} | m{5cm} | m{4cm} | m{4cm} |}
+\hline
+
+\textbf{Test Case ID:} & \multicolumn{3}{l|}{TC004} \\ \hline
+\textbf{Test Scenario:} & \multicolumn{3}{l|}{Verify successful booking of a travel package} \\ \hline
+\textbf{Test Case:} & \multicolumn{3}{l|}{Book a travel package as a logged-in user} \\ \hline
+\textbf{Pre-Condition:} & \multicolumn{3}{l|}{The user must be logged in and have access to the list of travel packages.} \\ \hline
+\textbf{Test Steps} & \textbf{Test Data} & \textbf{Expected Result} & \textbf{Post Condition} \\ \hline
+1. Log in to the platform. & Email: user@example.com \newline Password: Password123! & The user successfully logs in and accesses their account. & The user session is initiated. \\ \hline
+2. Navigate to "Packages". & URL: /packages & The list of travel packages is displayed. & The user can view available travel packages. \\ \hline
+3. Select a travel package. & Travel Package: Package1 & The selected package details are displayed, including booking options. & The user can proceed with the booking. \\ \hline
+4. Click "Book Now". & N/A & The booking form is displayed with options to select dates and confirm the booking. & The user is ready to enter booking details. \\ \hline
+5. Enter booking details. & Travel Dates: 2024-10-01 to 2024-10-07 & The booking details are accepted by the system. & The user is ready to confirm the booking. \\ \hline
+6. Confirm the booking. & N/A & Booking is successfully processed, and the user receives a confirmation with booking details. & The booking is recorded in the system, and the booking confirmation is sent to the user. \\ \hline
+\end{longtable}
+
+\vspace{1cm}
+
+% Table 5 - TC005
+\begin{longtable}{| m{2cm} | m{5cm} | m{4cm} | m{4cm} |}
+\hline
+
+\textbf{Test Case ID:} & \multicolumn{3}{l|}{TC005} \\ \hline
+\textbf{Test Scenario:} & \multicolumn{3}{l|}{Verify successful cancellation of a booking} \\ \hline
+\textbf{Test Case:} & \multicolumn{3}{l|}{Cancel a booked travel package} \\ \hline
+\textbf{Pre-Condition:} & \multicolumn{3}{l|}{The user has an active booking and is logged in.} \\ \hline
+\textbf{Test Steps} & \textbf{Test Data} & \textbf{Expected Result} & \textbf{Post Condition} \\ \hline
+1. Log in to the platform. & Email: user@example.com \newline Password: Password123! & The user successfully logs in and accesses their account. & The user session is initiated. \\ \hline
+2. Navigate to "My Bookings". & URL: /my-bookings & The user's active bookings are displayed. & The user can view their current bookings. \\ \hline
+3. Select a booking. & Booking ID: BK12345 & The selected booking details are displayed with options to cancel the booking. & The user is ready to cancel the booking. \\ \hline
+4. Click on "Cancel". & N/A & The cancellation confirmation is displayed with a summary of the booking details. & The user is ready to confirm the cancellation. \\ \hline
+5. Confirm the cancellation. & N/A & The booking is successfully canceled, and the user receives a confirmation of the cancellation. & The booking is removed from the user's active bookings, and the cancellation is recorded in the system. \\ \hline
+\end{longtable}
+
+\vspace{1cm}
+
+% Table 6 - TC006
+\begin{longtable}{| m{2cm} | m{5cm} | m{4cm} | m{4cm} |}
+\hline
+
+\textbf{Test Case ID:} & \multicolumn{3}{l|}{TC006} \\ \hline
+\textbf{Test Scenario:} & \multicolumn{3}{l|}{Verify that a logged-in user can view their profile details} \\ \hline
+\textbf{Test Case:} & \multicolumn{3}{l|}{View user profile information} \\ \hline
+\textbf{Pre-Condition:} & \multicolumn{3}{l|}{The user is logged in and on the home page.} \\ \hline
+\textbf{Test Steps} & \textbf{Test Data} & \textbf{Expected Result} & \textbf{Post Condition} \\ \hline
+1. Navigate to the user profile page. & URL: /profile & The profile page loads successfully. & The user is presented with their profile information. \\ \hline
+2. View profile details. & N/A & The profile details are displayed correctly, including name, email, and contact information. & The user can see their updated profile details. \\ \hline
+\end{longtable}
+
+\vspace{1cm}
+
+% Table 7 - TC007
+\begin{longtable}{| m{2cm} | m{5cm} | m{4cm} | m{4cm} |}
+\hline
+
+\textbf{Test Case ID:} & \multicolumn{3}{l|}{TC007} \\ \hline
+\textbf{Test Scenario:} & \multicolumn{3}{l|}{Verify that a user receives an email confirmation after booking a travel package} \\ \hline
+\textbf{Test Case:} & \multicolumn{3}{l|}{Check email confirmation for a successful booking} \\ \hline
+\textbf{Pre-Condition:} & \multicolumn{3}{l|}{The user has completed a successful booking and provided a valid email address.} \\ \hline
+\textbf{Test Steps} & \textbf{Test Data} & \textbf{Expected Result} & \textbf{Post Condition} \\ \hline
+1. Complete the booking process. & Travel Dates: 2024-10-01 to 2024-10-07 & Booking is successfully processed. & The booking is recorded, and an email confirmation is triggered. \\ \hline
+2. Check the registered email account. & Email: user@example.com & The user receives an email confirmation with booking details. & The user can view the confirmation email containing the booking details. \\ \hline
+\end{longtable}
+
+\vspace{1cm}
+
+% Table 8 - TC008
+\begin{longtable}{| m{2cm} | m{5cm} | m{4cm} | m{4cm} |}
+\hline
+
+\textbf{Test Case ID:} & \multicolumn{3}{l|}{TC008} \\ \hline
+\textbf{Test Scenario:} & \multicolumn{3}{l|}{Verify that a user can update their profile information} \\ \hline
+\textbf{Test Case:} & \multicolumn{3}{l|}{Update user profile details} \\ \hline
+\textbf{Pre-Condition:} & \multicolumn{3}{l|}{The user is logged in and on the profile page.} \\ \hline
+\textbf{Test Steps} & \textbf{Test Data} & \textbf{Expected Result} & \textbf{Post Condition} \\ \hline
+1. Navigate to the profile update section. & URL: /profile/edit & The profile edit page loads successfully. & The user is presented with editable profile fields. \\ \hline
+2. Update profile information. & 1. New Name: Jane Doe \newline 2. New Email: jane.doe@example.com & The new profile information is accepted by the system. & The profile details are updated. \\ \hline
+3. Save changes. & N/A & The system confirms that the profile information has been updated successfully. & The updated profile information is displayed on the user's profile page. \\ \hline
+\end{longtable}
+
+\vspace{1cm}
+
+% Table 9 - TC009
+\begin{longtable}{| m{2cm} | m{5cm} | m{4cm} | m{4cm} |}
+\hline
+
+\textbf{Test Case ID:} & \multicolumn{3}{l|}{TC009} \\ \hline
+\textbf{Test Scenario:} & \multicolumn{3}{l|}{Verify that a user can search for travel packages using keywords} \\ \hline
+\textbf{Test Case:} & \multicolumn{3}{l|}{Search for travel packages} \\ \hline
+\textbf{Pre-Condition:} & \multicolumn{3}{l|}{The user is logged in and on the travel packages page.} \\ \hline
+\textbf{Test Steps} & \textbf{Test Data} & \textbf{Expected Result} & \textbf{Post Condition} \\ \hline
+1. Enter a keyword in the search field. & 1. Keyword: "beach" & The search query is processed by the system. & The user is shown search results related to the keyword. \\ \hline
+2. Click "Search". & N/A & The search results display travel packages related to the keyword, including destination and price. & The user can view and select from the search results. \\ \hline
+\end{longtable}
+
+\end{document}
