@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  13 SEP 2024 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  16 SEP 2024 21:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -615,9 +615,9 @@ File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 66.
+(hyperref)                setting the option has no effect on input line 67.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 66.
+Package hyperref Info: Option `colorlinks' set `true' on input line 67.
 (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count324
@@ -775,7 +775,7 @@ chapter 1.
 
 ]
 chapter 2.
-<SAD.png, id=49, 2252.415pt x 2599.7125pt>
+<SAD.png, id=51, 2252.415pt x 2599.7125pt>
 File: SAD.png Graphic file (type png)
 <use SAD.png>
 Package pdftex.def Info: SAD.png  used on input line 198.
@@ -792,6 +792,8 @@ Overfull \hbox (48.88884pt too wide) in paragraph at lines 198--199
  <./SAD.png>]
 
 [5]
+chapter 3.
+
 Underfull \hbox (badness 3396) in paragraph at lines 235--235
 []|\OT1/cmr/bx/n/10.95 Test Sce-
  []
@@ -822,11 +824,6 @@ Underfull \hbox (badness 2644) in paragraph at lines 239--239
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
-\OT1/cmr/m/n/10.95 with a reg-is-tra-tion
- []
-
-
 Underfull \hbox (badness 2922) in paragraph at lines 240--240
 []|\OT1/cmr/m/n/10.95 2. En-ter
  []
@@ -837,8 +834,38 @@ Underfull \hbox (badness 3281) in paragraph at lines 240--240
  []
 
 
+Underfull \hbox (badness 4048) in paragraph at lines 240--240
+[]|\OT1/cmr/m/n/10.95 The sys-tem ac-
+ []
+
+
+Underfull \hbox (badness 7273) in paragraph at lines 240--240
+\OT1/cmr/m/n/10.95 cepts the user-
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 241--241
+[]|\OT1/cmr/m/n/10.95 The sys-tem ac-
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 241--241
+\OT1/cmr/m/n/10.95 cepts the email
+ []
+
+
 Underfull \hbox (badness 4168) in paragraph at lines 242--242
 []|\OT1/cmr/m/n/10.95 The pass-word is ac-
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 242--242
+[]|\OT1/cmr/m/n/10.95 The sys-tem ac-
+ []
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 242--242
+\OT1/cmr/m/n/10.95 cepts the pass-
  []
 
 
@@ -857,507 +884,627 @@ Underfull \hbox (badness 10000) in paragraph at lines 243--243
  []
 
 
-Overfull \hbox (76.93654pt too wide) in alignment at lines 232--244
+Underfull \hbox (badness 3735) in paragraph at lines 243--243
+[]|\OT1/cmr/m/n/10.95 User ac-count is
+ []
+
+
+Overfull \hbox (48.48378pt too wide) in alignment at lines 232--244
  [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 253--253
-[]|\OT1/cmr/bx/n/10.95 Test Sce-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--255
-[]|\OT1/cmr/bx/n/10.95 Pre-
- []
-
-
-Overfull \hbox (1.15953pt too wide) in paragraph at lines 255--255
-\OT1/cmr/bx/n/10.95 Condition:| 
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 257--257
-[]|\OT1/cmr/m/n/10.95 The lo-gin page loads
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-[]|\OT1/cmr/m/n/10.95 2. En-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-\OT1/cmr/m/n/10.95 ter the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-\OT1/cmr/m/n/10.95 reg-is-tered
- []
-
-
-Underfull \hbox (badness 2922) in paragraph at lines 259--259
-[]|\OT1/cmr/m/n/10.95 3. En-ter
- []
-
-
-Underfull \hbox (badness 2221) in paragraph at lines 259--259
-\OT1/cmr/m/n/10.95 the cor-rect
- []
-
-
-Underfull \hbox (badness 4291) in paragraph at lines 260--260
-[]|\OT1/cmr/m/n/10.95 4. Click
- []
-
-
-Overfull \hbox (76.93654pt too wide) in alignment at lines 249--261
- [] [] [] [] 
- []
 
 [6
 
 ]
-Underfull \hbox (badness 3396) in paragraph at lines 270--270
+Underfull \hbox (badness 3396) in paragraph at lines 254--254
 []|\OT1/cmr/bx/n/10.95 Test Sce-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
 []|\OT1/cmr/bx/n/10.95 Pre-
  []
 
 
-Overfull \hbox (1.15953pt too wide) in paragraph at lines 272--272
+Overfull \hbox (1.15953pt too wide) in paragraph at lines 256--256
 \OT1/cmr/bx/n/10.95 Condition:| 
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 274--274
-[]|\OT1/cmr/m/n/10.95 The home page loads
+Underfull \hbox (badness 1888) in paragraph at lines 258--258
+[]|\OT1/cmr/m/n/10.95 The lo-gin page loads
  []
 
 
-Underfull \hbox (badness 7030) in paragraph at lines 274--274
-\OT1/cmr/m/n/10.95 suc-cess-fully with the
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+[]|\OT1/cmr/m/n/10.95 2. En-
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 274--274
-\OT1/cmr/m/n/10.95 "Pack-ages" menu op-
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+\OT1/cmr/m/n/10.95 ter the
  []
 
 
-Underfull \hbox (badness 4001) in paragraph at lines 274--274
-\OT1/cmr/m/n/10.95 avail-able travel pack-
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
+\OT1/cmr/m/n/10.95 reg-is-tered
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 275--275
-\OT1/cmr/m/n/10.95 the "Pack-
+Underfull \hbox (badness 4048) in paragraph at lines 259--259
+[]|\OT1/cmr/m/n/10.95 The sys-tem ac-
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 275--275
-\OT1/cmr/m/n/10.95 ages, in-clud-ing des-ti-
+Underfull \hbox (badness 4416) in paragraph at lines 259--259
+\OT1/cmr/m/n/10.95 cepts the email
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 275--275
-\OT1/cmr/m/n/10.95 na-tion, du-ra-tion, and
+Underfull \hbox (badness 2922) in paragraph at lines 260--260
+[]|\OT1/cmr/m/n/10.95 3. En-ter
  []
 
 
-Underfull \hbox (badness 7168) in paragraph at lines 275--275
-\OT1/cmr/m/n/10.95 pack-ages with-out re-
+Underfull \hbox (badness 2221) in paragraph at lines 260--260
+\OT1/cmr/m/n/10.95 the cor-rect
  []
 
 
-Overfull \hbox (76.93654pt too wide) in alignment at lines 266--276
- [] [] [] [] 
+Underfull \hbox (badness 4048) in paragraph at lines 260--260
+[]|\OT1/cmr/m/n/10.95 The sys-tem ac-
  []
 
 
-Underfull \hbox (badness 3396) in paragraph at lines 285--285
-[]|\OT1/cmr/bx/n/10.95 Test Sce-
+Underfull \hbox (badness 6396) in paragraph at lines 260--260
+\OT1/cmr/m/n/10.95 cepts the pass-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--287
-[]|\OT1/cmr/bx/n/10.95 Pre-
- []
-
-
-Overfull \hbox (1.15953pt too wide) in paragraph at lines 287--287
-\OT1/cmr/bx/n/10.95 Condition:| 
- []
-
-
-Underfull \hbox (badness 4686) in paragraph at lines 289--289
-[]|\OT1/cmr/m/n/10.95 The user suc-cess-fully
- []
-
-
-Underfull \hbox (badness 4779) in paragraph at lines 289--289
-\OT1/cmr/m/n/10.95 logs in and ac-cesses
- []
-
-
-Underfull \hbox (badness 5403) in paragraph at lines 290--290
-[]|\OT1/cmr/m/n/10.95 2. Nav-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
-\OT1/cmr/m/n/10.95 i-gate to
- []
-
-
-Underfull \hbox (badness 4913) in paragraph at lines 291--291
-[]|\OT1/cmr/m/n/10.95 The se-lected pack-age
- []
-
-
-Underfull \hbox (badness 5147) in paragraph at lines 291--291
-\OT1/cmr/m/n/10.95 de-tails are dis-played,
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 291--291
-\OT1/cmr/m/n/10.95 in-clud-ing book-ing op-
- []
-
-
-Underfull \hbox (badness 4291) in paragraph at lines 292--292
+Underfull \hbox (badness 4291) in paragraph at lines 261--261
 []|\OT1/cmr/m/n/10.95 4. Click
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--292
-\OT1/cmr/m/n/10.95 "Book
+Underfull \hbox (badness 4108) in paragraph at lines 261--261
+\OT1/cmr/m/n/10.95 ti-ated, and the
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 293--293
-[]|\OT1/cmr/m/n/10.95 5. En-ter
+Overfull \hbox (48.48378pt too wide) in alignment at lines 250--262
+ [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 293--293
-[]|\OT1/cmr/m/n/10.95 The user is ready to
+Underfull \hbox (badness 3396) in paragraph at lines 271--271
+[]|\OT1/cmr/bx/n/10.95 Test Sce-
  []
 
 
-Underfull \hbox (badness 5161) in paragraph at lines 294--294
-[]|\OT1/cmr/m/n/10.95 6. Con-
+Underfull \hbox (badness 10000) in paragraph at lines 273--273
+[]|\OT1/cmr/bx/n/10.95 Pre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--294
-\OT1/cmr/m/n/10.95 firm the
+Overfull \hbox (1.15953pt too wide) in paragraph at lines 273--273
+\OT1/cmr/bx/n/10.95 Condition:| 
  []
 
 
-Overfull \hbox (76.93654pt too wide) in alignment at lines 281--295
+Underfull \hbox (badness 1092) in paragraph at lines 275--275
+[]|\OT1/cmr/m/n/10.95 The home page loads
+ []
+
+
+Underfull \hbox (badness 7030) in paragraph at lines 275--275
+\OT1/cmr/m/n/10.95 suc-cess-fully with the
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 275--275
+\OT1/cmr/m/n/10.95 "Pack-ages" menu op-
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 275--275
+[]|\OT1/cmr/m/n/10.95 The vis-i-tor can
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 276--276
+\OT1/cmr/m/n/10.95 the "Pack-
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 276--276
+\OT1/cmr/m/n/10.95 ages, in-clud-ing des-ti-
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 276--276
+\OT1/cmr/m/n/10.95 na-tion, du-ra-tion, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
+[]|\OT1/cmr/m/n/10.95 System dis-plays
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--276
+\OT1/cmr/m/n/10.95 travel pack-ages
+ []
+
+
+Overfull \hbox (48.48378pt too wide) in alignment at lines 267--277
  [] [] [] [] 
  []
 
 [7]
-Underfull \hbox (badness 3396) in paragraph at lines 304--304
+Underfull \hbox (badness 3396) in paragraph at lines 286--286
 []|\OT1/cmr/bx/n/10.95 Test Sce-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 306--306
+Underfull \hbox (badness 10000) in paragraph at lines 288--288
 []|\OT1/cmr/bx/n/10.95 Pre-
  []
 
 
-Overfull \hbox (1.15953pt too wide) in paragraph at lines 306--306
+Overfull \hbox (1.15953pt too wide) in paragraph at lines 288--288
 \OT1/cmr/bx/n/10.95 Condition:| 
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 308--308
+Underfull \hbox (badness 4686) in paragraph at lines 290--290
 []|\OT1/cmr/m/n/10.95 The user suc-cess-fully
  []
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 308--308
+Underfull \hbox (badness 4779) in paragraph at lines 290--290
 \OT1/cmr/m/n/10.95 logs in and ac-cesses
  []
 
 
-Underfull \hbox (badness 3354) in paragraph at lines 309--309
-[]|\OT1/cmr/m/n/10.95 2. Nav-i-
+Underfull \hbox (badness 5403) in paragraph at lines 291--291
+[]|\OT1/cmr/m/n/10.95 2. Nav-
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 310--310
-[]|\OT1/cmr/m/n/10.95 The se-lected book-ing
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
+\OT1/cmr/m/n/10.95 i-gate to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--310
-\OT1/cmr/m/n/10.95 de-tails are dis-played
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
+\OT1/cmr/m/n/10.95 avail-able travel
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 310--310
-[]|\OT1/cmr/m/n/10.95 The user is ready to
+Underfull \hbox (badness 4913) in paragraph at lines 292--292
+[]|\OT1/cmr/m/n/10.95 The se-lected pack-age
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 311--311
-[]|\OT1/cmr/m/n/10.95 The user is ready to
+Underfull \hbox (badness 5147) in paragraph at lines 292--292
+\OT1/cmr/m/n/10.95 de-tails are dis-played,
  []
 
 
-Underfull \hbox (badness 5652) in paragraph at lines 311--311
-\OT1/cmr/m/n/10.95 con-firm the can-cel-la-
+Underfull \hbox (badness 1748) in paragraph at lines 292--292
+\OT1/cmr/m/n/10.95 in-clud-ing book-ing op-
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 312--312
-\OT1/cmr/m/n/10.95 the can-cel-
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
+[]|\OT1/cmr/m/n/10.95 The user can
  []
 
 
-Overfull \hbox (76.93654pt too wide) in alignment at lines 300--313
- [] [] [] [] 
- []
-
-[8]
-Underfull \hbox (badness 3396) in paragraph at lines 322--322
-[]|\OT1/cmr/bx/n/10.95 Test Sce-
+Underfull \hbox (badness 4291) in paragraph at lines 293--293
+[]|\OT1/cmr/m/n/10.95 4. Click
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
-[]|\OT1/cmr/bx/n/10.95 Pre-
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
+\OT1/cmr/m/n/10.95 "Book
  []
 
 
-Overfull \hbox (1.15953pt too wide) in paragraph at lines 324--324
-\OT1/cmr/bx/n/10.95 Condition:| 
+Underfull \hbox (badness 2922) in paragraph at lines 294--294
+[]|\OT1/cmr/m/n/10.95 5. En-ter
  []
 
 
-Underfull \hbox (badness 3354) in paragraph at lines 326--326
-[]|\OT1/cmr/m/n/10.95 1. Nav-i-
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+\OT1/cmr/m/n/10.95 to con-firm the
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 327--327
-[]|\OT1/cmr/m/n/10.95 2. View
+Underfull \hbox (badness 5161) in paragraph at lines 295--295
+[]|\OT1/cmr/m/n/10.95 6. Con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
-\OT1/cmr/m/n/10.95 pro-file
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
+\OT1/cmr/m/n/10.95 firm the
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 327--327
-\OT1/cmr/m/n/10.95 clud-ing name, email,
- []
-
-
-Underfull \hbox (badness 4940) in paragraph at lines 327--327
-\OT1/cmr/m/n/10.95 and con-tact in-for-ma-
- []
-
-
-Overfull \hbox (76.93654pt too wide) in alignment at lines 318--328
- [] [] [] [] 
- []
-
-
-Underfull \hbox (badness 3396) in paragraph at lines 337--337
-[]|\OT1/cmr/bx/n/10.95 Test Sce-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
-[]|\OT1/cmr/bx/n/10.95 Pre-
- []
-
-
-Overfull \hbox (1.15953pt too wide) in paragraph at lines 339--339
-\OT1/cmr/bx/n/10.95 Condition:| 
- []
-
-
-Underfull \hbox (badness 3179) in paragraph at lines 341--341
-[]|\OT1/cmr/m/n/10.95 1. Com-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
-\OT1/cmr/m/n/10.95 plete the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
-\OT1/cmr/m/n/10.95 book-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
+Underfull \hbox (badness 5417) in paragraph at lines 295--295
 []|\OT1/cmr/m/n/10.95 The book-ing is
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 341--341
-\OT1/cmr/m/n/10.95 recorded, and an
+Underfull \hbox (badness 4416) in paragraph at lines 295--295
+\OT1/cmr/m/n/10.95 recorded in the
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 341--341
-\OT1/cmr/m/n/10.95 email con-fir-ma-tion is
+Underfull \hbox (badness 1237) in paragraph at lines 295--295
+\OT1/cmr/m/n/10.95 sys-tem, and the
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 342--342
-[]|\OT1/cmr/m/n/10.95 2. Check
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
+\OT1/cmr/m/n/10.95 book-ing con-fir-
+ []
+
+
+Overfull \hbox (48.48378pt too wide) in alignment at lines 282--296
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 305--305
+[]|\OT1/cmr/bx/n/10.95 Test Sce-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+[]|\OT1/cmr/bx/n/10.95 Pre-
+ []
+
+
+Overfull \hbox (1.15953pt too wide) in paragraph at lines 307--307
+\OT1/cmr/bx/n/10.95 Condition:| 
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 309--309
+[]|\OT1/cmr/m/n/10.95 The user suc-cess-fully
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 309--309
+\OT1/cmr/m/n/10.95 logs in and ac-cesses
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 310--310
+[]|\OT1/cmr/m/n/10.95 2. Nav-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--310
+[]|\OT1/cmr/m/n/10.95 The user can
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 311--311
+[]|\OT1/cmr/m/n/10.95 The se-lected book-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\OT1/cmr/m/n/10.95 de-tails are dis-played
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\OT1/cmr/m/n/10.95 to can-cel the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+\OT1/cmr/m/n/10.95 to con-firm the
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 313--313
+\OT1/cmr/m/n/10.95 the can-cel-
+ []
+
+
+Underfull \hbox (badness 5417) in paragraph at lines 313--313
+[]|\OT1/cmr/m/n/10.95 The book-ing is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+\OT1/cmr/m/n/10.95 re-moved from
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 313--313
+\OT1/cmr/m/n/10.95 the user's ac-tive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+\OT1/cmr/m/n/10.95 can-cel-la-tion is
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 313--313
+\OT1/cmr/m/n/10.95 recorded in the
+ []
+
+
+Overfull \hbox (48.48378pt too wide) in alignment at lines 301--314
+ [] [] [] [] 
+ []
+
+
+
+[8]
+Underfull \hbox (badness 3396) in paragraph at lines 323--323
+[]|\OT1/cmr/bx/n/10.95 Test Sce-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+[]|\OT1/cmr/bx/n/10.95 Pre-
+ []
+
+
+Overfull \hbox (1.15953pt too wide) in paragraph at lines 325--325
+\OT1/cmr/bx/n/10.95 Condition:| 
+ []
+
+
+Underfull \hbox (badness 3354) in paragraph at lines 327--327
+[]|\OT1/cmr/m/n/10.95 1. Nav-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
+\OT1/cmr/m/n/10.95 pro-file in-for-ma-
+ []
+
+
+Underfull \hbox (badness 4505) in paragraph at lines 328--328
+[]|\OT1/cmr/m/n/10.95 2. View
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
+\OT1/cmr/m/n/10.95 pro-file
+ []
+
+
+Underfull \hbox (badness 4531) in paragraph at lines 328--328
+\OT1/cmr/m/n/10.95 clud-ing name, email,
+ []
+
+
+Underfull \hbox (badness 4940) in paragraph at lines 328--328
+\OT1/cmr/m/n/10.95 and con-tact in-for-ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
+\OT1/cmr/m/n/10.95 their up-dated
+ []
+
+
+Overfull \hbox (48.48378pt too wide) in alignment at lines 319--329
+ [] [] [] [] 
+ []
+
+[9]
+Underfull \hbox (badness 3396) in paragraph at lines 338--338
+[]|\OT1/cmr/bx/n/10.95 Test Sce-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
+[]|\OT1/cmr/bx/n/10.95 Pre-
+ []
+
+
+Overfull \hbox (1.15953pt too wide) in paragraph at lines 340--340
+\OT1/cmr/bx/n/10.95 Condition:| 
+ []
+
+
+Underfull \hbox (badness 3179) in paragraph at lines 342--342
+[]|\OT1/cmr/m/n/10.95 1. Com-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 342--342
+\OT1/cmr/m/n/10.95 plete the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+\OT1/cmr/m/n/10.95 book-ing
+ []
+
+
+Underfull \hbox (badness 5417) in paragraph at lines 342--342
+[]|\OT1/cmr/m/n/10.95 The book-ing is
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+\OT1/cmr/m/n/10.95 email con-fir-ma-
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 343--343
+[]|\OT1/cmr/m/n/10.95 2. Check
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
 \OT1/cmr/m/n/10.95 the reg-is-
  []
 
 
-Underfull \hbox (badness 2626) in paragraph at lines 342--342
+Underfull \hbox (badness 2626) in paragraph at lines 343--343
 []|\OT1/cmr/m/n/10.95 The user re-ceives an
  []
 
 
-Overfull \hbox (76.93654pt too wide) in alignment at lines 333--343
+Underfull \hbox (badness 4001) in paragraph at lines 343--343
+\OT1/cmr/m/n/10.95 the con-fir-ma-tion
+ []
+
+
+Underfull \hbox (badness 4673) in paragraph at lines 343--343
+\OT1/cmr/m/n/10.95 email con-tain-ing
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 343--343
+\OT1/cmr/m/n/10.95 the book-ing de-
+ []
+
+
+Overfull \hbox (48.48378pt too wide) in alignment at lines 334--344
  [] [] [] [] 
  []
 
 
-
-[9]
-Underfull \hbox (badness 3396) in paragraph at lines 352--352
+Underfull \hbox (badness 3396) in paragraph at lines 353--353
 []|\OT1/cmr/bx/n/10.95 Test Sce-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--354
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
 []|\OT1/cmr/bx/n/10.95 Pre-
  []
 
 
-Overfull \hbox (1.15953pt too wide) in paragraph at lines 354--354
+Overfull \hbox (1.15953pt too wide) in paragraph at lines 355--355
 \OT1/cmr/bx/n/10.95 Condition:| 
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 356--356
+Underfull \hbox (badness 3746) in paragraph at lines 357--357
 \OT1/cmr/m/n/10.95 file up-date
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 356--356
+Underfull \hbox (badness 1675) in paragraph at lines 357--357
 []|\OT1/cmr/m/n/10.95 The pro-file edit page
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--356
-\OT1/cmr/m/n/10.95 with ed-itable pro-file
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+[]|\OT1/cmr/m/n/10.95 The user is
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 357--357
+\OT1/cmr/m/n/10.95 pre-sented with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
+\OT1/cmr/m/n/10.95 ed-itable pro-file
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \OT1/cmr/m/n/10.95 pro-file in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \OT1/cmr/m/n/10.95 2. New Email:
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 358--358
+Underfull \hbox (badness 6412) in paragraph at lines 359--359
 []|\OT1/cmr/m/n/10.95 3. Save
  []
 
 
-Underfull \hbox (badness 6575) in paragraph at lines 358--358
+Underfull \hbox (badness 6575) in paragraph at lines 359--359
 []|\OT1/cmr/m/n/10.95 The sys-tem con-firms
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 358--358
-\OT1/cmr/m/n/10.95 for-ma-tion is dis-played
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
+\OT1/cmr/m/n/10.95 file in-for-ma-tion
  []
 
 
-Underfull \hbox (badness 4391) in paragraph at lines 358--358
-\OT1/cmr/m/n/10.95 on the user's pro-file
+Underfull \hbox (badness 6893) in paragraph at lines 359--359
+\OT1/cmr/m/n/10.95 is dis-played on
  []
 
 
-Overfull \hbox (76.93654pt too wide) in alignment at lines 348--359
+Overfull \hbox (48.48378pt too wide) in alignment at lines 349--360
  [] [] [] [] 
  []
 
-
-Underfull \hbox (badness 3396) in paragraph at lines 368--368
+[10]
+Underfull \hbox (badness 3396) in paragraph at lines 369--369
 []|\OT1/cmr/bx/n/10.95 Test Sce-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--370
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
 []|\OT1/cmr/bx/n/10.95 Pre-
  []
 
 
-Overfull \hbox (1.15953pt too wide) in paragraph at lines 370--370
+Overfull \hbox (1.15953pt too wide) in paragraph at lines 371--371
 \OT1/cmr/bx/n/10.95 Condition:| 
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 372--372
+Underfull \hbox (badness 1552) in paragraph at lines 373--373
 \OT1/cmr/m/n/10.95 key-word in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--372
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
 \OT1/cmr/m/n/10.95 the search
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--372
-[]|\OT1/cmr/m/n/10.95 The user is shown
- []
-
-
-Underfull \hbox (badness 4291) in paragraph at lines 373--373
+Underfull \hbox (badness 4291) in paragraph at lines 374--374
 []|\OT1/cmr/m/n/10.95 2. Click
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--373
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
 []|\OT1/cmr/m/n/10.95 The search re-sults
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--373
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
 \OT1/cmr/m/n/10.95 in-clud-ing des-ti-na-tion
  []
 
 
-Overfull \hbox (76.93654pt too wide) in alignment at lines 364--374
+Underfull \hbox (badness 3514) in paragraph at lines 374--374
+\OT1/cmr/m/n/10.95 and se-lect from
+ []
+
+
+Overfull \hbox (48.48378pt too wide) in alignment at lines 365--375
  [] [] [] [] 
  []
 
 
-
-[10]
 
 [11] (final.aux)
  ***********
@@ -1368,17 +1515,17 @@ Package rerunfilecheck Info: File `final.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28440 strings out of 473920
- 573419 string characters out of 5726974
+ 28441 strings out of 473920
+ 573424 string characters out of 5726974
  1953908 words of memory out of 5000000
- 50828 multiletter control sequences out of 15000+600000
+ 50829 multiletter control sequences out of 15000+600000
  565370 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,9n,107p,10991b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\SAKIB\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on final.pdf (11 pages, 487820 bytes).
+Output written on final.pdf (11 pages, 488583 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
+ 163 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
