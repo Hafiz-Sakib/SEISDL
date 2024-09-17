@@ -13,4 +13,5 @@
 \contentsline {chapter}{\numberline {4}Test Case Design}{9}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Website Snapshots}{17}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Future Work}{19}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Conclusion}{20}{chapter.7}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  18 SEP 2024 00:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  18 SEP 2024 00:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -777,7 +777,7 @@ chapter 1.
 
 ]
 chapter 2.
-<SAD.png, id=61, 2252.415pt x 2599.7125pt>
+<SAD.png, id=63, 2252.415pt x 2599.7125pt>
 File: SAD.png Graphic file (type png)
 <use SAD.png>
 Package pdftex.def Info: SAD.png  used on input line 198.
@@ -795,7 +795,7 @@ Overfull \hbox (48.88884pt too wide) in paragraph at lines 198--199
 
 [6]
 chapter 3.
-<L0.png, id=71, 1464.47125pt x 1278.7775pt>
+<L0.png, id=73, 1464.47125pt x 1278.7775pt>
 File: L0.png Graphic file (type png)
 <use L0.png>
 Package pdftex.def Info: L0.png  used on input line 231.
@@ -805,7 +805,7 @@ Overfull \hbox (48.90099pt too wide) in paragraph at lines 231--232
  [] 
  []
 
-<L1.png, id=72, 2218.2875pt x 1951.29pt>
+<L1.png, id=74, 2218.2875pt x 1951.29pt>
 File: L1.png Graphic file (type png)
 <use L1.png>
 Package pdftex.def Info: L1.png  used on input line 241.
@@ -1641,6 +1641,12 @@ chapter 6.
 
 [19
 
+]
+chapter 7.
+
+
+[20
+
 ] (final.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
@@ -1650,17 +1656,17 @@ Package rerunfilecheck Info: File `final.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28478 strings out of 473920
- 573841 string characters out of 5726974
+ 28481 strings out of 473920
+ 573863 string characters out of 5726974
  1951908 words of memory out of 5000000
- 50852 multiletter control sequences out of 15000+600000
+ 50853 multiletter control sequences out of 15000+600000
  565370 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,9n,107p,10991b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\SAKIB\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on final.pdf (19 pages, 892645 bytes).
+Output written on final.pdf (20 pages, 895577 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 234 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
