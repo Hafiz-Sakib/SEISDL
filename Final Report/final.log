@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  18 SEP 2024 01:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  18 SEP 2024 09:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1620,7 +1620,7 @@ chapter 5.
 File: ./SS/home.jpg Graphic file (type jpg)
 <use ./SS/home.jpg>
 Package pdftex.def Info: ./SS/home.jpg  used on input line 402.
-(pdftex.def)             Requested size: 498.26656pt x 280.2084pt.
+(pdftex.def)             Requested size: 498.26656pt x 245.18323pt.
 
 Overfull \hbox (45.29866pt too wide) in paragraph at lines 402--403
  [][] 
@@ -1630,7 +1630,7 @@ Overfull \hbox (45.29866pt too wide) in paragraph at lines 402--403
 File: ./SS/plans.jpg Graphic file (type jpg)
 <use ./SS/plans.jpg>
 Package pdftex.def Info: ./SS/plans.jpg  used on input line 409.
-(pdftex.def)             Requested size: 498.26656pt x 280.2084pt.
+(pdftex.def)             Requested size: 498.26656pt x 245.18323pt.
 
 Overfull \hbox (45.29866pt too wide) in paragraph at lines 409--410
  [][] 
@@ -1643,7 +1643,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./SS/plan.jpg Graphic file (type jpg)
 <use ./SS/plan.jpg>
 Package pdftex.def Info: ./SS/plan.jpg  used on input line 416.
-(pdftex.def)             Requested size: 498.26656pt x 280.2084pt.
+(pdftex.def)             Requested size: 498.26656pt x 245.18323pt.
 
 Overfull \hbox (45.29866pt too wide) in paragraph at lines 416--417
  [][] 
@@ -1656,7 +1656,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./SS/signup.jpg Graphic file (type jpg)
 <use ./SS/signup.jpg>
 Package pdftex.def Info: ./SS/signup.jpg  used on input line 423.
-(pdftex.def)             Requested size: 498.26656pt x 280.2084pt.
+(pdftex.def)             Requested size: 498.26656pt x 245.18323pt.
 
 Overfull \hbox (45.29866pt too wide) in paragraph at lines 423--424
  [][] 
@@ -1669,7 +1669,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./SS/hotel.jpg Graphic file (type jpg)
 <use ./SS/hotel.jpg>
 Package pdftex.def Info: ./SS/hotel.jpg  used on input line 430.
-(pdftex.def)             Requested size: 498.26656pt x 280.2084pt.
+(pdftex.def)             Requested size: 498.26656pt x 245.18323pt.
 
 Overfull \hbox (45.29866pt too wide) in paragraph at lines 430--431
  [][] 
@@ -1682,7 +1682,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./SS/flight.jpg Graphic file (type jpg)
 <use ./SS/flight.jpg>
 Package pdftex.def Info: ./SS/flight.jpg  used on input line 437.
-(pdftex.def)             Requested size: 498.26656pt x 280.2084pt.
+(pdftex.def)             Requested size: 498.26656pt x 245.18323pt.
 
 Overfull \hbox (45.29866pt too wide) in paragraph at lines 437--438
  [][] 
@@ -1695,7 +1695,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./SS/payment.jpg Graphic file (type jpg)
 <use ./SS/payment.jpg>
 Package pdftex.def Info: ./SS/payment.jpg  used on input line 444.
-(pdftex.def)             Requested size: 498.26656pt x 280.2084pt.
+(pdftex.def)             Requested size: 498.26656pt x 245.18323pt.
 
 Overfull \hbox (45.29866pt too wide) in paragraph at lines 444--445
  [][] 
@@ -1708,7 +1708,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./SS/about.jpg Graphic file (type jpg)
 <use ./SS/about.jpg>
 Package pdftex.def Info: ./SS/about.jpg  used on input line 451.
-(pdftex.def)             Requested size: 498.26656pt x 280.2084pt.
+(pdftex.def)             Requested size: 498.26656pt x 245.18323pt.
 
 Overfull \hbox (45.29866pt too wide) in paragraph at lines 451--452
  [][] 
@@ -1721,7 +1721,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./SS/contact_us.jpg Graphic file (type jpg)
 <use ./SS/contact_us.jpg>
 Package pdftex.def Info: ./SS/contact_us.jpg  used on input line 458.
-(pdftex.def)             Requested size: 498.26656pt x 280.2084pt.
+(pdftex.def)             Requested size: 498.26656pt x 245.18323pt.
 
 Overfull \hbox (45.29866pt too wide) in paragraph at lines 458--459
  [][] 
@@ -1734,7 +1734,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./SS/developer.jpg Graphic file (type jpg)
 <use ./SS/developer.jpg>
 Package pdftex.def Info: ./SS/developer.jpg  used on input line 465.
-(pdftex.def)             Requested size: 498.26656pt x 280.2084pt.
+(pdftex.def)             Requested size: 498.26656pt x 245.18323pt.
 
 Overfull \hbox (45.29866pt too wide) in paragraph at lines 465--466
  [][] 
@@ -1747,7 +1747,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./SS/error.jpg Graphic file (type jpg)
 <use ./SS/error.jpg>
 Package pdftex.def Info: ./SS/error.jpg  used on input line 472.
-(pdftex.def)             Requested size: 498.26656pt x 280.2084pt.
+(pdftex.def)             Requested size: 498.26656pt x 245.18323pt.
 
 Overfull \hbox (45.29866pt too wide) in paragraph at lines 472--473
  [][] 
@@ -1760,7 +1760,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./SS/admin.jpg Graphic file (type jpg)
 <use ./SS/admin.jpg>
 Package pdftex.def Info: ./SS/admin.jpg  used on input line 479.
-(pdftex.def)             Requested size: 498.26656pt x 280.2084pt.
+(pdftex.def)             Requested size: 498.26656pt x 245.18323pt.
 
 Overfull \hbox (45.29866pt too wide) in paragraph at lines 479--480
  [][] 
@@ -1773,7 +1773,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./SS/manage_plan.jpg Graphic file (type jpg)
 <use ./SS/manage_plan.jpg>
 Package pdftex.def Info: ./SS/manage_plan.jpg  used on input line 486.
-(pdftex.def)             Requested size: 498.26656pt x 280.2084pt.
+(pdftex.def)             Requested size: 498.26656pt x 245.18323pt.
 
 Overfull \hbox (45.29866pt too wide) in paragraph at lines 486--487
  [][] 
@@ -1786,7 +1786,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ./SS/pkg_edit.jpg Graphic file (type jpg)
 <use ./SS/pkg_edit.jpg>
 Package pdftex.def Info: ./SS/pkg_edit.jpg  used on input line 493.
-(pdftex.def)             Requested size: 498.26656pt x 280.2084pt.
+(pdftex.def)             Requested size: 498.26656pt x 245.18323pt.
 
 Overfull \hbox (45.29866pt too wide) in paragraph at lines 493--494
  [][] 
@@ -1842,7 +1842,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  110i,9n,107p,10991b,616s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\SAKIB\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on final.pdf (25 pages, 2181825 bytes).
+Output written on final.pdf (25 pages, 2181840 bytes).
 PDF statistics:
  283 PDF objects out of 1000 (max. 8388607)
  66 named destinations out of 1000 (max. 500000)
